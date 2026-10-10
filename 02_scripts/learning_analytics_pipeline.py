@@ -1,237 +1,211 @@
-import pandas as pd
-import numpy as np
-from datetime import datetime, timedelta
-import random
-import os
+"""Clean the simulated LMS export and generate a reproducible data-quality report.
+
+Run from any working directory:
+    python 02_scripts/learning_analytics_pipeline.py
+The script reads 00_raw_data/learning_talent_data.csv and writes the cleaned
+dataset and report inside the repository. It never overwrites the raw input.
+"""
+from pathlib import Path
 import sys
-sys.stdout.reconfigure(encoding='utf-8')
 
+import numpy as np
+import pandas as pd
 
-PROJECT_FOLDER = r"C:\Users\Rohan Vaiyata\OneDrive\Desktop\1_Project\3_Learning & Talent Analytics"
-RAW_FOLDER = os.path.join(PROJECT_FOLDER, "00_raw_data")
-CLEAN_FOLDER = os.path.join(PROJECT_FOLDER, "01_clean_data")
-DOCS_FOLDER = os.path.join(PROJECT_FOLDER, "07_docs")
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+except AttributeError:
+    pass
 
-os.makedirs(RAW_FOLDER, exist_ok=True)
-os.makedirs(CLEAN_FOLDER, exist_ok=True)
-os.makedirs(DOCS_FOLDER, exist_ok=True)
+PROJECT_ROOT = Path(__file__).resolve().parents[1]
+RAW_PATH = PROJECT_ROOT / "00_raw_data" / "learning_talent_data.csv"
+CLEAN_DIR = PROJECT_ROOT / "01_clean_data"
+DOCS_DIR = PROJECT_ROOT / "07_docs"
+CLEAN_PATH = CLEAN_DIR / "learning_talent_clean.csv"
+REPORT_PATH = DOCS_DIR / "data_quality_report.txt"
 
-print(f"Project folder: {PROJECT_FOLDER}")
-print(f"Raw data folder: {RAW_FOLDER}")
-print(f"Clean data folder: {CLEAN_FOLDER}")
-print(f"Docs folder: {DOCS_FOLDER}\n")
-
-
-print("=" * 60)
-print("PART 1: Generating raw dataset")
-print("=" * 60)
-
-np.random.seed(42)
-random.seed(42)
-
-n = 1000
-
-departments = ['Tax', 'Legal', 'Audit', 'Consulting', 'Finance', 'Advisory']
-regions = ['India', 'US', 'UK', 'Singapore', 'Australia', 'Germany']
-courses = [
-    ('CRS001', 'Data Privacy Fundamentals', 'Compliance', True),
-    ('CRS002', 'Power BI Essentials', 'Technical', False),
-    ('CRS003', 'Leadership 101', 'Leadership', False),
-    ('CRS004', 'Cyber Security Awareness', 'Compliance', True),
-    ('CRS005', 'Advanced Excel', 'Technical', False),
-    ('CRS006', 'Anti-Bribery & Corruption', 'Compliance', True),
-    ('CRS007', 'Tableau for Analysts', 'Technical', False),
-    ('CRS008', 'Effective Communication', 'Leadership', False),
-    ('CRS009', 'AI & Ethics', 'Digital Learning', False),
-    ('CRS010', 'Code of Conduct', 'Compliance', True),
-    ('CRS011', 'SQL Fundamentals', 'Technical', False),
-    ('CRS012', 'Emotional Intelligence', 'Leadership', False),
-    ('CRS013', 'Digital Learning Design', 'Digital Learning', False),
-    ('CRS014', 'Data Storytelling', 'Digital Learning', False),
-    ('CRS015', 'Time Management', 'Leadership', False),
-]
-statuses = ['Completed', 'In Progress', 'Not Started', 'Overdue']
-status_weights = [0.65, 0.15, 0.10, 0.10]
-
-rows = []
-for i in range(n):
-    emp_id = f"EMP{random.randint(1, 300):03d}"
-    course_id, course_name, category, mandatory = random.choice(courses)
-    dept = random.choice(departments)
-    region = random.choice(regions)
-
-    enroll_date = datetime(2025, 1, 1) + timedelta(days=random.randint(0, 300))
-    status = np.random.choice(statuses, p=status_weights)
-
-    if status == 'Completed':
-        completion_date = enroll_date + timedelta(days=random.randint(1, 60))
-        completion_rate = 100
-        score = random.randint(60, 100)
-        feedback = round(random.uniform(3.0, 5.0), 1)
-        hours = round(random.uniform(1.0, 10.0), 1)
-    elif status == 'In Progress':
-        completion_date = None
-        completion_rate = random.choice([25, 50, 75])
-        score = None
-        feedback = None
-        hours = round(random.uniform(0.5, 5.0), 1)
-    elif status == 'Overdue':
-        completion_date = None
-        completion_rate = random.choice([0, 25, 50])
-        score = None
-        feedback = None
-        hours = round(random.uniform(0.0, 2.0), 1)
-    else:
-        completion_date = None
-        completion_rate = 0
-        score = None
-        feedback = None
-        hours = 0.0
-
-    rows.append({
-        'Employee_ID': emp_id,
-        'Employee_Name': f"Employee_{i+1}",
-        'Department': dept,
-        'Region': region,
-        'Course_ID': course_id,
-        'Course_Name': course_name,
-        'Course_Category': category,
-        'Mandatory': mandatory,
-        'Enrollment_Date': enroll_date.strftime('%Y-%m-%d'),
-        'Completion_Date': completion_date.strftime('%Y-%m-%d') if completion_date else '',
-        'Status': status,
-        'Completion_Rate': completion_rate,
-        'Assessment_Score': score,
-        'Feedback_Rating': feedback,
-        'Time_Spent_Hours': hours
-    })
-
-df = pd.DataFrame(rows)
-
-# Deliberate messiness
-duplicates = df.sample(30, random_state=1)
-df = pd.concat([df, duplicates], ignore_index=True)
-
-df.loc[df.sample(20, random_state=2).index, 'Department'] = 'tax'
-df.loc[df.sample(15, random_state=3).index, 'Department'] = 'LEGAL'
-df.loc[df.sample(10, random_state=4).index, 'Region'] = 'india'
-df.loc[df.sample(8, random_state=5).index, 'Region'] = 'USA'
-
-completed_idx = df[df['Status'] == 'Completed'].sample(25, random_state=6).index
-df.loc[completed_idx, 'Completion_Date'] = ''
-
-df.loc[df.sample(5, random_state=7).index, 'Assessment_Score'] = 105
-df.loc[df.sample(3, random_state=8).index, 'Feedback_Rating'] = 6.5
-df.loc[df.sample(4, random_state=9).index, 'Time_Spent_Hours'] = -2.0
-
-df.loc[df.sample(10, random_state=10).index, 'Enrollment_Date'] = '15/03/2025'
-
-raw_path = os.path.join(RAW_FOLDER, 'learning_talent_data.csv')
-df.to_csv(raw_path, index=False)
-print(f"   Saved: {raw_path}")
-print(f"   Rows: {len(df)}")
-
-
-print("\n" + "=" * 60)
-print("PART 2: Cleaning dataset")
-print("=" * 60)
-
-df = pd.read_csv(raw_path)
-print(f"Loaded {len(df)} rows")
-
-df['Department'] = df['Department'].str.strip().str.title()
-df['Region'] = df['Region'].str.strip().str.title()
-df['Region'] = df['Region'].replace({'Usa': 'US', 'Uk': 'UK'})
-df['Course_Name'] = df['Course_Name'].str.strip()
-df['Course_Category'] = df['Course_Category'].str.strip()
-print("Standardized Department & Region names")
-
-df['Enrollment_Date'] = pd.to_datetime(
-    df['Enrollment_Date'], format='mixed', dayfirst=True, errors='coerce'
-)
-df['Completion_Date'] = pd.to_datetime(
-    df['Completion_Date'], format='mixed', dayfirst=True, errors='coerce'
-)
-print("Parsed dates")
-
-before = len(df)
-df = df.drop_duplicates(subset=['Employee_ID', 'Course_ID', 'Enrollment_Date'])
-removed = before - len(df)
-print(f"Removed {removed} duplicate rows -> {len(df)} rows remain")
-
-df['DQ_Missing_Completion_Date'] = (df['Status'] == 'Completed') & (df['Completion_Date'].isna())
-df['DQ_Invalid_Score'] = df['Assessment_Score'] > 100
-df['DQ_Invalid_Rating'] = (df['Feedback_Rating'] < 1) | (df['Feedback_Rating'] > 5)
-df['DQ_Negative_Hours'] = df['Time_Spent_Hours'] < 0
-
-dq_summary = {
-    'Missing completion dates': int(df['DQ_Missing_Completion_Date'].sum()),
-    'Invalid scores (>100)': int(df['DQ_Invalid_Score'].sum()),
-    'Invalid ratings (outside 1-5)': int(df['DQ_Invalid_Rating'].sum()),
-    'Negative time spent': int(df['DQ_Negative_Hours'].sum()),
+REQUIRED_COLUMNS = {
+    "Employee_ID", "Employee_Name", "Department", "Region", "Course_ID",
+    "Course_Name", "Course_Category", "Mandatory", "Enrollment_Date",
+    "Completion_Date", "Status", "Completion_Rate", "Assessment_Score",
+    "Feedback_Rating", "Time_Spent_Hours",
 }
-print("\nData Quality Issues Found:")
-for k, v in dq_summary.items():
-    print(f"  - {k}: {v}")
 
-df.loc[df['DQ_Invalid_Score'], 'Assessment_Score'] = np.nan
-df.loc[df['DQ_Invalid_Rating'], 'Feedback_Rating'] = np.nan
-df.loc[df['DQ_Negative_Hours'], 'Time_Spent_Hours'] = np.nan
 
-df['Days_to_Complete'] = (df['Completion_Date'] - df['Enrollment_Date']).dt.days
-df['Completion_Bucket'] = pd.cut(
-    df['Days_to_Complete'],
-    bins=[-1, 30, 60, 999],
-    labels=['On Time', 'Late', 'Very Late']
-)
-df['Enrollment_Month'] = df['Enrollment_Date'].dt.to_period('M').astype(str)
-df['Enrollment_Quarter'] = df['Enrollment_Date'].dt.to_period('Q').astype(str)
-df['Enrollment_Year'] = df['Enrollment_Date'].dt.year
-df['Is_Completed'] = (df['Status'] == 'Completed').astype(int)
-df['Is_Overdue'] = (df['Status'] == 'Overdue').astype(int)
-print("Derived new columns")
+def parse_dates(series: pd.Series) -> pd.Series:
+    """Parse ISO and day-first dates while safely coercing invalid values."""
+    return pd.to_datetime(series, format="mixed", dayfirst=True, errors="coerce")
 
-df['Enrollment_Date'] = df['Enrollment_Date'].dt.strftime('%Y-%m-%d')
-df['Completion_Date'] = df['Completion_Date'].dt.strftime('%Y-%m-%d')
-df['Completion_Date'] = df['Completion_Date'].fillna('')
-df['Completion_Bucket'] = df['Completion_Bucket'].astype(str).replace('nan', '')
 
-clean_path = os.path.join(CLEAN_FOLDER, 'learning_talent_clean.csv')
-df.to_csv(clean_path, index=False)
-print(f"\n Saved: {clean_path} ({len(df)} rows)")
+def main() -> None:
+    if not RAW_PATH.exists():
+        raise FileNotFoundError(
+            f"Raw dataset not found: {RAW_PATH}. "
+            "Restore 00_raw_data/learning_talent_data.csv before running."
+        )
 
-print("\n" + "=" * 60)
-print("PART 3: Data Quality Report")
-print("=" * 60)
+    CLEAN_DIR.mkdir(parents=True, exist_ok=True)
+    DOCS_DIR.mkdir(parents=True, exist_ok=True)
 
-dept_summary = df.groupby('Department').agg(
-    enrollments=('Employee_ID', 'count'),
-    completions=('Is_Completed', 'sum')
-).reset_index()
-dept_summary['completion_rate_pct'] = (
-    100 * dept_summary['completions'] / dept_summary['enrollments']
-).round(2)
-dept_summary = dept_summary.sort_values('completion_rate_pct', ascending=False)
+    raw = pd.read_csv(RAW_PATH)
+    raw_rows = len(raw)
+    missing_columns = REQUIRED_COLUMNS - set(raw.columns)
+    if missing_columns:
+        raise ValueError(f"Raw dataset is missing required columns: {sorted(missing_columns)}")
+    if raw.empty:
+        raise ValueError("Raw dataset contains no records.")
 
-print("\nCompletion Rate by Department:")
-print(dept_summary.to_string(index=False))
+    df = raw.copy()
 
-report_path = os.path.join(DOCS_FOLDER, 'data_quality_report.txt')
-with open(report_path, 'w', encoding='utf-8') as f:
-    f.write("LEARNING & TALENT ANALYTICS - DATA QUALITY REPORT\n")
-    f.write("=" * 60 + "\n\n")
-    f.write(f"Raw rows: {before + removed}\n")
-    f.write(f"Duplicates removed: {removed}\n")
-    f.write(f"Final rows: {len(df)}\n\n")
-    f.write("DQ ISSUES FOUND:\n")
-    for k, v in dq_summary.items():
-        f.write(f"  - {k}: {v}\n")
-    f.write("\nCOMPLETION RATE BY DEPARTMENT:\n")
-    for _, r in dept_summary.iterrows():
-        f.write(f"  {r['Department']}: {r['completion_rate_pct']}% "
-                f"({r['completions']}/{r['enrollments']})\n")
+    # Standardize categorical fields before deduplication and analysis.
+    for column in ["Department", "Region", "Course_Name", "Course_Category", "Status"]:
+        df[column] = df[column].astype("string").str.strip()
 
-print(f"\nSaved: {report_path}")
-print("\n" + "=" * 60)
-print("PHASE 1 COMPLETE")
-print("=" * 60)
+    df["Department"] = df["Department"].str.title()
+    df["Region"] = df["Region"].str.title().replace(
+        {"Us": "US", "Usa": "US", "Uk": "UK", "United States": "US"}
+    )
+    df["Course_Name"] = df["Course_Name"].str.strip()
+    df["Course_Category"] = df["Course_Category"].str.strip()
+    df["Status"] = df["Status"].str.title()
+
+    # Normalize Mandatory to a real Boolean; fail loudly on unexpected values.
+    mandatory_map = {
+        "true": True, "false": False, "yes": True, "no": False,
+        "1": True, "0": False,
+    }
+    df["Mandatory"] = df["Mandatory"].astype("string").str.strip().str.lower().map(mandatory_map)
+    if df["Mandatory"].isna().any():
+        bad_values = sorted(raw.loc[df["Mandatory"].isna(), "Mandatory"].astype(str).unique())
+        raise ValueError(f"Unrecognized Mandatory values: {bad_values}")
+
+    for column in ["Completion_Rate", "Assessment_Score", "Feedback_Rating", "Time_Spent_Hours"]:
+        df[column] = pd.to_numeric(df[column], errors="coerce")
+
+    df["Enrollment_Date"] = parse_dates(df["Enrollment_Date"])
+    df["Completion_Date"] = parse_dates(df["Completion_Date"])
+
+    before_deduplication = len(df)
+    df = df.drop_duplicates(
+        subset=["Employee_ID", "Course_ID", "Enrollment_Date"],
+        keep="first",
+    ).copy()
+    duplicates_removed = before_deduplication - len(df)
+
+    # Capture issue flags before invalid measurements are nulled for analysis.
+    df["DQ_Missing_Completion_Date"] = (
+        df["Status"].eq("Completed") & df["Completion_Date"].isna()
+    )
+    df["DQ_Invalid_Score"] = (
+        df["Assessment_Score"].notna()
+        & ~df["Assessment_Score"].between(0, 100, inclusive="both")
+    )
+    df["DQ_Invalid_Rating"] = (
+        df["Feedback_Rating"].notna()
+        & ~df["Feedback_Rating"].between(1, 5, inclusive="both")
+    )
+    df["DQ_Negative_Hours"] = (
+        df["Time_Spent_Hours"].notna() & df["Time_Spent_Hours"].lt(0)
+    )
+
+    dq_counts = {
+        "Completed records missing completion dates": int(df["DQ_Missing_Completion_Date"].sum()),
+        "Invalid assessment scores (outside 0-100)": int(df["DQ_Invalid_Score"].sum()),
+        "Invalid feedback ratings (outside 1-5)": int(df["DQ_Invalid_Rating"].sum()),
+        "Negative learning-hour values": int(df["DQ_Negative_Hours"].sum()),
+    }
+
+    # Keep the exception flags, but exclude invalid numeric values from averages.
+    df.loc[df["DQ_Invalid_Score"], "Assessment_Score"] = np.nan
+    df.loc[df["DQ_Invalid_Rating"], "Feedback_Rating"] = np.nan
+    df.loc[df["DQ_Negative_Hours"], "Time_Spent_Hours"] = np.nan
+
+    df["Days_to_Complete"] = (df["Completion_Date"] - df["Enrollment_Date"]).dt.days
+    df["Completion_Bucket"] = pd.cut(
+        df["Days_to_Complete"],
+        bins=[-1, 30, 60, np.inf],
+        labels=["On Time", "Late", "Very Late"],
+        include_lowest=True,
+    ).astype("string")
+
+    df["Enrollment_Month"] = df["Enrollment_Date"].dt.to_period("M").astype("string")
+    df["Enrollment_Quarter"] = df["Enrollment_Date"].dt.to_period("Q").astype("string")
+    df["Enrollment_Year"] = df["Enrollment_Date"].dt.year.astype("Int64")
+    df["Is_Completed"] = df["Status"].eq("Completed").astype("int64")
+    df["Is_Overdue"] = df["Status"].eq("Overdue").astype("int64")
+
+    # Save dates in a consistent ISO format; missing dates remain blank in CSV.
+    for column in ["Enrollment_Date", "Completion_Date"]:
+        df[column] = df[column].dt.strftime("%Y-%m-%d").fillna("")
+
+    df.to_csv(CLEAN_PATH, index=False)
+
+    department_summary = (
+        df.groupby("Department", dropna=False)
+        .agg(
+            enrollments=("Employee_ID", "size"),
+            completions=("Is_Completed", "sum"),
+        )
+        .reset_index()
+    )
+    department_summary["completion_rate_pct"] = (
+        100 * department_summary["completions"] / department_summary["enrollments"]
+    ).round(2)
+    department_summary = department_summary.sort_values(
+        "completion_rate_pct", ascending=False
+    )
+
+    issue_instances = sum(dq_counts.values())
+    completed_count = int(df["Is_Completed"].sum())
+    completion_rate = round(100 * completed_count / len(df), 2) if len(df) else 0.0
+    overdue_count = int(df["Is_Overdue"].sum())
+    avg_score = df["Assessment_Score"].mean()
+    avg_rating = df["Feedback_Rating"].mean()
+
+    report_lines = [
+        "LEARNING & TALENT ANALYTICS - DATA QUALITY REPORT",
+        "=" * 58,
+        "",
+        f"Raw rows loaded: {raw_rows}",
+        f"Duplicate rows removed: {duplicates_removed}",
+        f"Clean rows written: {len(df)}",
+        f"Clean dataset columns: {len(df.columns)}",
+        "",
+        "DATA QUALITY ISSUE INSTANCES (flags may overlap):",
+    ]
+    report_lines.extend(f"  - {name}: {count}" for name, count in dq_counts.items())
+    report_lines.extend([
+        f"  - Total issue instances: {issue_instances}",
+        "",
+        "KEY METRICS",
+        f"  - Completed enrollments: {completed_count}",
+        f"  - Completion rate: {completion_rate:.2f}%",
+        f"  - Overdue enrollments: {overdue_count}",
+        f"  - Average valid assessment score: {avg_score:.2f}" if pd.notna(avg_score) else "  - Average valid assessment score: N/A",
+        f"  - Average valid feedback rating: {avg_rating:.3f}" if pd.notna(avg_rating) else "  - Average valid feedback rating: N/A",
+        "",
+        "COMPLETION RATE BY DEPARTMENT:",
+    ])
+    for _, row in department_summary.iterrows():
+        report_lines.append(
+            f"  - {row['Department']}: {row['completion_rate_pct']:.2f}% "
+            f"({int(row['completions'])}/{int(row['enrollments'])})"
+        )
+    report_lines.extend([
+        "",
+        "Note: The dataset is simulated for portfolio demonstration.",
+        "Issue instances count flagged values; one record can have multiple flags.",
+        "",
+    ])
+    REPORT_PATH.write_text("\n".join(report_lines), encoding="utf-8")
+
+    print(f"Raw rows loaded: {raw_rows}")
+    print(f"Duplicate rows removed: {duplicates_removed}")
+    print(f"Clean rows written: {len(df)}")
+    print(f"Data-quality issue instances: {issue_instances}")
+    print(f"Completion rate: {completion_rate:.2f}%")
+    print(f"Saved cleaned dataset: {CLEAN_PATH}")
+    print(f"Saved report: {REPORT_PATH}")
+
+
+if __name__ == "__main__":
+    main()
