@@ -168,16 +168,16 @@ Learning_Talent_Analytics/
 ## Dashboard Screenshots
 
 ### Executive Summary
-![Executive Summary](06_screenshots/1_Learning_and_talent.png)
+![Executive Summary](06_screenshots/1_Learning_&_talent.png)
 
 ### Participation & Completion
-![Participation & Completion](06_screenshots/2_Participation_and_completion.png)
+![Participation & Completion](06_screenshots/2_Participation_&_completion.png)
 
 ### Course Performance
 ![Course Performance](06_screenshots/3_Course_performance.png)
 
 ### Data Quality & Exceptions
-![Data Quality & Exceptions](06_screenshots/4_Data_quality_and_exceptions.png)
+![Data Quality & Exceptions](06_screenshots/4_Data_quality_&_exceptions.png)
 
 ---
 
@@ -209,8 +209,7 @@ pip install pandas numpy mysql-connector-python
 python 02_scripts/learning_analytics_pipeline.py
 ```
 
-### 3. Load into MySQL (optional)
-Edit `02_scripts/push_to_mysql.py` with your MySQL credentials, then:
+### 3. Load into MySQL 
 ```bash
 python 02_scripts/push_to_mysql.py
 ```
