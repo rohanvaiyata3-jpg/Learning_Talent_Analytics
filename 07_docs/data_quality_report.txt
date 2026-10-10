@@ -1,20 +1,32 @@
 LEARNING & TALENT ANALYTICS - DATA QUALITY REPORT
-============================================================
+==========================================================
 
-Raw rows: 1058
-Duplicates removed: 28
-Final rows: 1002
+Raw rows loaded: 1030
+Duplicate rows removed: 28
+Clean rows written: 1002
+Clean dataset columns: 26
 
-DQ ISSUES FOUND:
-  - Missing completion dates: 25
-  - Invalid scores (>100): 5
-  - Invalid ratings (outside 1-5): 3
-  - Negative time spent: 4
+DATA QUALITY ISSUE INSTANCES (flags may overlap):
+  - Completed records missing completion dates: 25
+  - Invalid assessment scores (outside 0-100): 5
+  - Invalid feedback ratings (outside 1-5): 3
+  - Negative learning-hour values: 4
+  - Total issue instances: 37
+
+KEY METRICS
+  - Completed enrollments: 673
+  - Completion rate: 67.17%
+  - Overdue enrollments: 100
+  - Average valid assessment score: 80.95
+  - Average valid feedback rating: 4.006
 
 COMPLETION RATE BY DEPARTMENT:
-  Legal: 73.68% (126/171)
-  Tax: 68.48% (113/165)
-  Audit: 66.24% (104/157)
-  Advisory: 65.85% (108/164)
-  Finance: 65.12% (112/172)
-  Consulting: 63.58% (110/173)
+  - Legal: 73.68% (126/171)
+  - Tax: 68.48% (113/165)
+  - Audit: 66.24% (104/157)
+  - Advisory: 65.85% (108/164)
+  - Finance: 65.12% (112/172)
+  - Consulting: 63.58% (110/173)
+
+Note: The dataset is simulated for portfolio demonstration.
+Issue instances count flagged values; one record can have multiple flags.
