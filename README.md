@@ -97,10 +97,10 @@ The SQL file contains queries for:
 
 The repository includes screenshots and a packaged Tableau workbook for four dashboard views:
 
-1. **Executive Summary** — headline KPIs and completion trends.
-2. **Participation & Completion** — status and completion patterns across groups.
-3. **Course Performance** — course-level scores and feedback.
-4. **Data Quality & Exceptions** — flagged issues affecting reporting.
+1. **Executive Summary** - headline KPIs and completion trends.
+2. **Participation & Completion** - status and completion patterns across groups.
+3. **Course Performance** - course-level scores and feedback.
+4. **Data Quality & Exceptions** - flagged issues affecting reporting.
 
 #### Executive Summary
 ![Executive Summary](06_screenshots/1_Learning_&_talent.png)
