@@ -1,0 +1,1031 @@
+Employee_ID,Employee_Name,Department,Region,Course_ID,Course_Name,Course_Category,Mandatory,Enrollment_Date,Completion_Date,Status,Completion_Rate,Assessment_Score,Feedback_Rating,Time_Spent_Hours
+EMP058,Employee_1,Advisory,UK,CRS001,Data Privacy Fundamentals,Compliance,True,2025-05-06,2025-05-21,Completed,100,68.0,4.5,7.1
+EMP280,Employee_2,Finance,Singapore,CRS002,Power BI Essentials,Technical,False,2025-01-17,,Overdue,0,,,0.2
+EMP120,Employee_3,Finance,India,CRS009,AI & Ethics,Digital Learning,False,2025-10-15,,In Progress,25,,,3.7
+EMP280,Employee_4,Legal,Singapore,CRS007,Tableau for Analysts,Technical,False,2025-05-23,2025-07-14,Completed,100,60.0,4.5,2.4
+EMP217,Employee_5,Audit,US,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-04-21,2025-06-09,Completed,100,81.0,3.2,4.4
+EMP184,Employee_6,Audit,Australia,CRS014,Data Storytelling,Digital Learning,False,2025-05-16,2025-07-07,Completed,100,62.0,4.5,5.8
+EMP194,Employee_7,Finance,UK,CRS002,Power BI Essentials,Technical,False,2025-07-05,2025-08-11,Completed,100,72.0,4.4,1.4
+EMP117,Employee_8,Audit,India,CRS013,Digital Learning Design,Digital Learning,False,2025-04-30,,Not Started,0,,,0.0
+EMP052,Employee_9,Audit,Singapore,CRS007,Tableau for Analysts,Technical,False,2025-07-06,2025-07-17,Completed,100,83.0,3.7,7.0
+EMP037,Employee_10,Advisory,US,CRS010,Code of Conduct,Compliance,True,2025-10-01,,In Progress,75,,,1.6
+EMP237,Employee_11,Audit,Germany,CRS007,Tableau for Analysts,Technical,False,2025-10-13,2025-10-28,Completed,100,80.0,4.7,8.0
+EMP118,Employee_12,Tax,UK,CRS014,Data Storytelling,Digital Learning,False,2025-07-25,,Overdue,25,,,0.1
+EMP291,Employee_13,Advisory,UK,CRS015,Time Management,Leadership,False,2025-04-19,,Not Started,0,,,0.0
+EMP256,Employee_14,Advisory,Singapore,CRS007,Tableau for Analysts,Technical,False,2025-03-15,2025-04-01,Completed,100,68.0,3.5,6.1
+EMP135,Employee_15,Finance,Singapore,CRS012,Emotional Intelligence,Leadership,False,2025-10-26,2025-11-21,Completed,100,83.0,3.4,10.0
+EMP261,Employee_16,Tax,India,CRS008,Effective Communication,Leadership,False,2025-02-26,2025-03-08,Completed,100,100.0,3.3,7.1
+EMP033,Employee_17,Consulting,Australia,CRS007,Tableau for Analysts,Technical,False,2025-08-28,2025-10-01,Completed,100,76.0,4.9,8.7
+EMP006,Employee_18,Advisory,India,CRS011,SQL Fundamentals,Technical,False,2025-10-02,2025-11-20,Completed,100,77.0,4.5,4.1
+EMP151,Employee_19,Legal,Singapore,CRS007,Tableau for Analysts,Technical,False,2025-01-02,2025-02-18,Completed,100,76.0,4.9,7.9
+EMP260,Employee_20,Tax,Germany,CRS015,Time Management,Leadership,False,2025-06-02,2025-07-26,Completed,100,100.0,4.0,2.8
+EMP192,Employee_21,Legal,Australia,CRS013,Digital Learning Design,Digital Learning,False,2025-09-29,2025-11-27,Completed,100,60.0,4.2,5.4
+EMP058,Employee_22,Audit,UK,CRS015,Time Management,Leadership,False,2025-05-03,2025-05-07,Completed,100,75.0,4.8,9.5
+EMP044,Employee_23,Consulting,India,CRS012,Emotional Intelligence,Leadership,False,2025-09-30,2025-11-19,Completed,100,68.0,3.3,5.3
+EMP282,Employee_24,Audit,Australia,CRS003,Leadership 101,Leadership,False,2025-08-05,2025-08-19,Completed,100,94.0,4.5,7.2
+EMP160,Employee_25,Advisory,Germany,CRS007,Tableau for Analysts,Technical,False,2025-07-11,2025-08-09,Completed,100,93.0,3.9,3.2
+EMP033,Employee_26,Tax,Australia,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-10-11,,In Progress,25,,,3.1
+EMP004,Employee_27,Advisory,Germany,CRS002,Power BI Essentials,Technical,False,2025-01-31,2025-02-15,Completed,100,64.0,4.8,8.7
+EMP037,Employee_28,Legal,UK,CRS009,AI & Ethics,Digital Learning,False,2025-09-06,2025-09-20,Completed,100,94.0,3.3,9.4
+EMP293,Employee_29,Consulting,US,CRS010,Code of Conduct,Compliance,True,2025-08-31,2025-10-22,Completed,100,86.0,3.4,1.9
+EMP221,Employee_30,Consulting,Singapore,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-08-28,2025-10-23,Completed,100,63.0,4.3,9.9
+EMP051,Employee_31,Consulting,Germany,CRS001,Data Privacy Fundamentals,Compliance,True,2025-06-23,2025-08-14,Completed,100,66.0,3.5,2.7
+EMP230,Employee_32,Consulting,US,CRS003,Leadership 101,Leadership,False,2025-05-23,2025-06-22,Completed,100,75.0,4.7,1.7
+EMP282,Employee_33,Tax,Germany,CRS002,Power BI Essentials,Technical,False,2025-10-04,2025-11-27,Completed,100,60.0,4.9,9.3
+EMP122,Employee_34,Consulting,USA,CRS003,Leadership 101,Leadership,False,2025-09-04,,Overdue,0,,,1.7
+EMP031,Employee_35,Consulting,USA,CRS003,Leadership 101,Leadership,False,2025-07-19,,Overdue,25,,,1.9
+EMP233,Employee_36,Consulting,Germany,CRS005,Advanced Excel,Technical,False,2025-10-12,,Not Started,0,,,0.0
+EMP250,Employee_37,Legal,UK,CRS003,Leadership 101,Leadership,False,2025-04-22,2025-04-26,Completed,100,97.0,4.5,1.5
+EMP161,Employee_38,Tax,Australia,CRS001,Data Privacy Fundamentals,Compliance,True,2025-09-02,2025-10-05,Completed,100,93.0,3.3,9.6
+EMP042,Employee_39,Legal,India,CRS014,Data Storytelling,Digital Learning,False,2025-02-04,,In Progress,75,,,4.4
+EMP207,Employee_40,Finance,US,CRS002,Power BI Essentials,Technical,False,2025-10-24,2025-12-02,Completed,100,62.0,4.2,4.8
+EMP299,Employee_41,Finance,UK,CRS010,Code of Conduct,Compliance,True,2025-05-14,2025-05-28,Completed,100,80.0,3.5,4.6
+EMP154,Employee_42,Audit,India,CRS008,Effective Communication,Leadership,False,2025-01-05,2025-02-04,Completed,100,99.0,5.0,10.0
+EMP038,Employee_43,Legal,Australia,CRS009,AI & Ethics,Digital Learning,False,2025-05-16,2025-05-25,Completed,100,82.0,4.8,8.9
+EMP190,Employee_44,Legal,Singapore,CRS005,Advanced Excel,Technical,False,2025-10-06,,Overdue,50,,,0.6
+EMP271,Employee_45,Advisory,Australia,CRS001,Data Privacy Fundamentals,Compliance,True,2025-06-03,2025-08-02,Completed,100,66.0,4.9,2.2
+EMP060,Employee_46,Tax,Germany,CRS015,Time Management,Leadership,False,2025-10-11,,In Progress,25,,,1.7
+EMP108,Employee_47,Audit,US,CRS012,Emotional Intelligence,Leadership,False,2025-05-16,2025-06-18,Completed,100,91.0,3.5,9.2
+EMP027,Employee_48,Advisory,Singapore,CRS002,Power BI Essentials,Technical,False,2025-05-22,2025-05-25,Completed,100,60.0,3.7,2.2
+EMP135,Employee_49,Advisory,Singapore,CRS003,Leadership 101,Leadership,False,2025-10-10,2025-11-25,Completed,100,87.0,4.1,2.0
+EMP077,Employee_50,Tax,UK,CRS009,AI & Ethics,Digital Learning,False,2025-10-26,2025-12-01,Completed,100,69.0,3.9,1.4
+EMP187,Employee_51,Tax,UK,CRS015,Time Management,Leadership,False,2025-04-18,,Overdue,50,,,0.5
+EMP053,Employee_52,Finance,Singapore,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-03-21,,In Progress,25,,,4.4
+EMP091,Employee_53,Consulting,India,CRS015,Time Management,Leadership,False,2025-04-02,,Overdue,50,,,1.8
+EMP211,Employee_54,Advisory,Germany,CRS013,Digital Learning Design,Digital Learning,False,2025-05-08,,Not Started,0,,,0.0
+EMP137,Employee_55,Advisory,India,CRS003,Leadership 101,Leadership,False,2025-07-15,2025-09-09,Completed,100,62.0,4.7,3.0
+EMP236,Employee_56,Audit,US,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-04-25,,Overdue,0,,,1.3
+EMP205,Employee_57,Audit,India,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-05-23,2025-06-15,Completed,100,92.0,3.8,9.8
+EMP275,Employee_58,Tax,India,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-05-14,2025-05-26,Completed,100,97.0,4.9,3.4
+EMP056,Employee_59,Consulting,UK,CRS010,Code of Conduct,Compliance,True,2025-06-10,2025-07-08,Completed,100,98.0,6.5,2.0
+EMP296,Employee_60,Audit,India,CRS004,Cyber Security Awareness,Compliance,True,2025-08-12,2025-08-13,Completed,100,93.0,4.9,5.8
+EMP101,Employee_61,Consulting,India,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-06-19,2025-07-29,Completed,100,105.0,4.3,2.1
+EMP154,Employee_62,Audit,Germany,CRS009,AI & Ethics,Digital Learning,False,2025-07-29,2025-08-19,Completed,100,85.0,4.4,6.0
+EMP099,Employee_63,Advisory,Singapore,CRS007,Tableau for Analysts,Technical,False,2025-03-31,,Not Started,0,,,0.0
+EMP292,Employee_64,Consulting,Australia,CRS005,Advanced Excel,Technical,False,2025-01-01,2025-01-21,Completed,100,78.0,3.4,8.1
+EMP165,Employee_65,Consulting,Singapore,CRS008,Effective Communication,Leadership,False,2025-04-20,2025-05-23,Completed,100,90.0,4.6,9.6
+EMP087,Employee_66,Tax,UK,CRS011,SQL Fundamentals,Technical,False,2025-09-21,2025-11-03,Completed,100,100.0,4.2,1.8
+EMP121,Employee_67,Audit,US,CRS011,SQL Fundamentals,Technical,False,2025-04-12,2025-04-22,Completed,100,61.0,3.1,9.9
+EMP038,Employee_68,tax,Germany,CRS008,Effective Communication,Leadership,False,2025-10-22,,Not Started,0,,,0.0
+EMP100,Employee_69,Advisory,Singapore,CRS012,Emotional Intelligence,Leadership,False,2025-09-11,2025-10-07,Completed,100,75.0,3.3,7.2
+EMP055,Employee_70,Consulting,US,CRS013,Digital Learning Design,Digital Learning,False,2025-04-01,,Overdue,50,,,1.0
+EMP026,Employee_71,Legal,India,CRS009,AI & Ethics,Digital Learning,False,2025-08-22,,In Progress,25,,,4.1
+EMP272,Employee_72,Finance,UK,CRS009,AI & Ethics,Digital Learning,False,2025-08-15,2025-09-24,Completed,100,92.0,3.9,9.2
+EMP229,Employee_73,Legal,Germany,CRS015,Time Management,Leadership,False,2025-09-01,2025-09-30,Completed,100,76.0,4.5,8.6
+EMP142,Employee_74,Finance,Singapore,CRS013,Digital Learning Design,Digital Learning,False,2025-05-03,,Not Started,0,,,0.0
+EMP141,Employee_75,Tax,Germany,CRS008,Effective Communication,Leadership,False,2025-05-27,,In Progress,25,,,1.7
+EMP164,Employee_76,Finance,India,CRS015,Time Management,Leadership,False,2025-03-12,,In Progress,25,,,1.5
+EMP079,Employee_77,Legal,India,CRS012,Emotional Intelligence,Leadership,False,2025-08-01,,In Progress,50,,,2.0
+EMP239,Employee_78,Tax,US,CRS007,Tableau for Analysts,Technical,False,2025-08-04,2025-08-29,Completed,100,97.0,4.9,1.2
+EMP295,Employee_79,Consulting,India,CRS007,Tableau for Analysts,Technical,False,2025-06-30,2025-07-20,Completed,100,84.0,4.7,9.6
+EMP215,Employee_80,Advisory,Germany,CRS009,AI & Ethics,Digital Learning,False,2025-10-07,2025-11-28,Completed,100,98.0,4.8,5.4
+EMP140,Employee_81,Consulting,India,CRS007,Tableau for Analysts,Technical,False,2025-07-19,,Not Started,0,,,0.0
+EMP173,Employee_82,Advisory,Singapore,CRS011,SQL Fundamentals,Technical,False,2025-03-26,2025-05-19,Completed,100,89.0,4.8,9.8
+EMP274,Employee_83,Consulting,Australia,CRS001,Data Privacy Fundamentals,Compliance,True,2025-10-16,2025-11-28,Completed,100,61.0,3.2,4.9
+EMP237,Employee_84,Tax,UK,CRS003,Leadership 101,Leadership,False,2025-07-14,2025-08-04,Completed,100,73.0,3.9,4.0
+EMP195,Employee_85,Consulting,UK,CRS005,Advanced Excel,Technical,False,2025-02-11,2025-03-14,Completed,100,61.0,4.5,1.5
+EMP180,Employee_86,Advisory,India,CRS004,Cyber Security Awareness,Compliance,True,2025-01-21,2025-03-11,Completed,100,61.0,4.9,2.8
+EMP011,Employee_87,Legal,US,CRS010,Code of Conduct,Compliance,True,2025-03-06,,In Progress,50,,,3.5
+EMP289,Employee_88,LEGAL,Germany,CRS004,Cyber Security Awareness,Compliance,True,2025-05-12,2025-07-01,Completed,100,83.0,3.3,6.5
+EMP059,Employee_89,Legal,UK,CRS013,Digital Learning Design,Digital Learning,False,2025-02-25,,Not Started,0,,,0.0
+EMP297,Employee_90,Audit,Australia,CRS001,Data Privacy Fundamentals,Compliance,True,2025-07-12,2025-08-07,Completed,100,72.0,3.2,7.2
+EMP125,Employee_91,Advisory,UK,CRS002,Power BI Essentials,Technical,False,2025-03-03,2025-04-23,Completed,100,96.0,4.6,4.1
+EMP220,Employee_92,Audit,India,CRS011,SQL Fundamentals,Technical,False,2025-09-17,,In Progress,75,,,2.0
+EMP216,Employee_93,Consulting,India,CRS014,Data Storytelling,Digital Learning,False,2025-08-10,,In Progress,50,,,3.4
+EMP236,Employee_94,Legal,Singapore,CRS012,Emotional Intelligence,Leadership,False,2025-04-01,2025-05-18,Completed,100,93.0,4.9,3.4
+EMP276,Employee_95,Consulting,Singapore,CRS013,Digital Learning Design,Digital Learning,False,2025-08-12,,In Progress,75,,,3.2
+EMP166,Employee_96,Legal,India,CRS014,Data Storytelling,Digital Learning,False,2025-05-23,2025-07-19,Completed,100,88.0,3.5,5.2
+EMP195,Employee_97,Tax,Singapore,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-06-16,2025-06-28,Completed,100,91.0,3.4,8.2
+EMP175,Employee_98,Finance,Germany,CRS005,Advanced Excel,Technical,False,2025-05-22,2025-06-27,Completed,100,60.0,4.0,2.7
+EMP124,Employee_99,Consulting,india,CRS012,Emotional Intelligence,Leadership,False,2025-10-12,2025-11-30,Completed,100,75.0,4.4,-2.0
+EMP252,Employee_100,Tax,India,CRS008,Effective Communication,Leadership,False,2025-05-31,2025-06-15,Completed,100,85.0,4.4,3.8
+EMP298,Employee_101,Consulting,Australia,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-09-29,2025-10-22,Completed,100,87.0,5.0,6.0
+EMP181,Employee_102,Consulting,UK,CRS012,Emotional Intelligence,Leadership,False,2025-06-06,2025-06-23,Completed,100,74.0,3.2,2.7
+EMP062,Employee_103,Finance,Germany,CRS012,Emotional Intelligence,Leadership,False,2025-04-05,2025-04-18,Completed,100,73.0,4.5,3.5
+EMP269,Employee_104,Audit,India,CRS010,Code of Conduct,Compliance,True,2025-04-10,2025-04-29,Completed,100,74.0,3.7,3.7
+EMP274,Employee_105,Audit,India,CRS003,Leadership 101,Leadership,False,2025-01-28,,Overdue,50,,,0.6
+EMP065,Employee_106,Consulting,India,CRS011,SQL Fundamentals,Technical,False,2025-01-07,2025-02-13,Completed,100,78.0,3.9,5.0
+EMP095,Employee_107,Audit,Singapore,CRS001,Data Privacy Fundamentals,Compliance,True,2025-02-28,2025-04-22,Completed,100,64.0,3.8,1.7
+EMP028,Employee_108,Legal,Australia,CRS003,Leadership 101,Leadership,False,2025-06-05,,In Progress,25,,,5.0
+EMP061,Employee_109,Consulting,Australia,CRS009,AI & Ethics,Digital Learning,False,2025-04-26,2025-06-15,Completed,100,93.0,3.8,9.2
+EMP153,Employee_110,Finance,Singapore,CRS014,Data Storytelling,Digital Learning,False,2025-06-06,2025-07-13,Completed,100,99.0,3.1,9.6
+EMP051,Employee_111,Legal,Germany,CRS013,Digital Learning Design,Digital Learning,False,2025-04-19,2025-05-06,Completed,100,65.0,3.3,2.6
+EMP039,Employee_112,Tax,Singapore,CRS003,Leadership 101,Leadership,False,2025-08-19,2025-10-03,Completed,100,98.0,3.9,1.3
+EMP148,Employee_113,Audit,Germany,CRS012,Emotional Intelligence,Leadership,False,2025-08-21,,Overdue,0,,,1.4
+EMP136,Employee_114,Advisory,Australia,CRS013,Digital Learning Design,Digital Learning,False,2025-04-12,,Not Started,0,,,0.0
+EMP218,Employee_115,Finance,US,CRS002,Power BI Essentials,Technical,False,2025-03-18,2025-05-16,Completed,100,77.0,4.7,1.6
+EMP085,Employee_116,Audit,Australia,CRS013,Digital Learning Design,Digital Learning,False,2025-10-19,,Not Started,0,,,0.0
+EMP148,Employee_117,Tax,Singapore,CRS008,Effective Communication,Leadership,False,2025-06-05,,Not Started,0,,,0.0
+EMP207,Employee_118,Finance,Australia,CRS005,Advanced Excel,Technical,False,2025-09-10,2025-10-09,Completed,100,65.0,4.2,9.0
+EMP166,Employee_119,Audit,India,CRS010,Code of Conduct,Compliance,True,2025-02-16,,Not Started,0,,,0.0
+EMP118,Employee_120,Finance,Australia,CRS011,SQL Fundamentals,Technical,False,2025-01-11,2025-03-01,Completed,100,77.0,4.2,7.9
+EMP090,Employee_121,Finance,Germany,CRS008,Effective Communication,Leadership,False,2025-08-15,,Not Started,0,,,0.0
+EMP143,Employee_122,Finance,Singapore,CRS003,Leadership 101,Leadership,False,2025-09-09,,Not Started,0,,,0.0
+EMP047,Employee_123,Audit,Singapore,CRS008,Effective Communication,Leadership,False,2025-06-20,2025-07-11,Completed,100,66.0,4.7,4.0
+EMP254,Employee_124,Advisory,Singapore,CRS005,Advanced Excel,Technical,False,2025-10-09,2025-10-12,Completed,100,89.0,3.2,3.3
+EMP060,Employee_125,Consulting,Australia,CRS013,Digital Learning Design,Digital Learning,False,2025-01-01,2025-02-13,Completed,100,94.0,3.9,1.5
+EMP266,Employee_126,Finance,Singapore,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-08-15,2025-10-03,Completed,100,63.0,3.4,5.9
+EMP148,Employee_127,Advisory,Singapore,CRS008,Effective Communication,Leadership,False,2025-03-04,,Not Started,0,,,0.0
+EMP015,Employee_128,Finance,US,CRS011,SQL Fundamentals,Technical,False,2025-03-23,,Not Started,0,,,0.0
+EMP160,Employee_129,LEGAL,Australia,CRS009,AI & Ethics,Digital Learning,False,2025-07-28,2025-08-03,Completed,100,74.0,5.0,9.2
+EMP237,Employee_130,Advisory,US,CRS002,Power BI Essentials,Technical,False,2025-09-13,2025-11-12,Completed,100,78.0,4.0,3.5
+EMP248,Employee_131,Legal,Singapore,CRS008,Effective Communication,Leadership,False,2025-10-10,2025-10-20,Completed,100,84.0,3.4,6.4
+EMP070,Employee_132,Tax,UK,CRS014,Data Storytelling,Digital Learning,False,2025-08-01,2025-08-23,Completed,100,92.0,3.5,1.0
+EMP153,Employee_133,Finance,Australia,CRS014,Data Storytelling,Digital Learning,False,2025-09-08,2025-11-03,Completed,100,69.0,3.9,5.4
+EMP171,Employee_134,Finance,Singapore,CRS009,AI & Ethics,Digital Learning,False,2025-08-22,2025-10-21,Completed,100,80.0,4.7,9.8
+EMP123,Employee_135,Consulting,US,CRS010,Code of Conduct,Compliance,True,2025-07-30,,Overdue,0,,,0.6
+EMP243,Employee_136,Consulting,Singapore,CRS012,Emotional Intelligence,Leadership,False,2025-03-19,2025-04-20,Completed,100,62.0,3.3,9.7
+EMP170,Employee_137,Tax,Singapore,CRS014,Data Storytelling,Digital Learning,False,2025-02-21,2025-03-27,Completed,100,89.0,3.0,2.3
+EMP080,Employee_138,Consulting,UK,CRS002,Power BI Essentials,Technical,False,2025-06-23,,In Progress,75,,,3.6
+EMP042,Employee_139,Audit,Germany,CRS014,Data Storytelling,Digital Learning,False,2025-10-01,,Completed,100,80.0,4.3,9.0
+EMP250,Employee_140,Finance,India,CRS014,Data Storytelling,Digital Learning,False,2025-02-05,,Overdue,0,,,1.3
+EMP148,Employee_141,Advisory,India,CRS004,Cyber Security Awareness,Compliance,True,2025-08-11,,Overdue,0,,,1.5
+EMP052,Employee_142,Legal,Germany,CRS008,Effective Communication,Leadership,False,2025-06-03,2025-07-31,Completed,100,61.0,3.1,8.2
+EMP151,Employee_143,Audit,Singapore,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-03-16,2025-04-01,Completed,100,93.0,3.8,7.1
+EMP093,Employee_144,tax,India,CRS003,Leadership 101,Leadership,False,2025-07-15,2025-08-24,Completed,100,75.0,4.0,6.2
+EMP119,Employee_145,Advisory,UK,CRS008,Effective Communication,Leadership,False,2025-08-24,2025-09-10,Completed,100,60.0,4.8,5.2
+EMP148,Employee_146,Finance,US,CRS011,SQL Fundamentals,Technical,False,2025-02-07,2025-03-08,Completed,100,82.0,5.0,3.7
+EMP218,Employee_147,Audit,Singapore,CRS012,Emotional Intelligence,Leadership,False,2025-06-04,2025-06-17,Completed,100,84.0,4.7,2.0
+EMP196,Employee_148,LEGAL,Australia,CRS010,Code of Conduct,Compliance,True,2025-06-01,2025-07-16,Completed,100,78.0,3.0,8.5
+EMP203,Employee_149,Tax,Australia,CRS005,Advanced Excel,Technical,False,2025-01-26,2025-03-26,Completed,100,98.0,4.5,8.5
+EMP147,Employee_150,Legal,Australia,CRS013,Digital Learning Design,Digital Learning,False,2025-06-30,2025-07-15,Completed,100,100.0,3.4,3.3
+EMP071,Employee_151,Tax,Germany,CRS011,SQL Fundamentals,Technical,False,2025-01-21,,Overdue,25,,,1.6
+EMP018,Employee_152,Audit,Germany,CRS010,Code of Conduct,Compliance,True,2025-03-09,2025-03-15,Completed,100,78.0,3.7,4.7
+EMP103,Employee_153,Finance,UK,CRS003,Leadership 101,Leadership,False,2025-09-29,2025-11-01,Completed,100,77.0,4.7,3.3
+EMP247,Employee_154,Audit,Germany,CRS013,Digital Learning Design,Digital Learning,False,2025-06-23,2025-08-14,Completed,100,67.0,3.9,1.7
+EMP116,Employee_155,Advisory,Germany,CRS014,Data Storytelling,Digital Learning,False,2025-07-23,,Overdue,50,,,0.7
+EMP203,Employee_156,Audit,Australia,CRS001,Data Privacy Fundamentals,Compliance,True,2025-03-05,2025-04-04,Completed,100,83.0,4.3,7.1
+EMP300,Employee_157,Advisory,UK,CRS007,Tableau for Analysts,Technical,False,2025-02-25,,In Progress,75,,,1.6
+EMP013,Employee_158,Finance,UK,CRS010,Code of Conduct,Compliance,True,2025-04-24,,In Progress,75,,,0.8
+EMP238,Employee_159,Advisory,UK,CRS015,Time Management,Leadership,False,2025-07-29,2025-08-06,Completed,100,68.0,3.1,1.3
+EMP253,Employee_160,Tax,US,CRS002,Power BI Essentials,Technical,False,2025-10-03,,In Progress,25,,,2.2
+EMP190,Employee_161,Advisory,Germany,CRS011,SQL Fundamentals,Technical,False,2025-10-04,2025-10-31,Completed,100,97.0,4.5,2.4
+EMP213,Employee_162,Tax,Singapore,CRS011,SQL Fundamentals,Technical,False,2025-07-28,2025-08-15,Completed,100,62.0,4.4,3.0
+EMP228,Employee_163,Audit,India,CRS004,Cyber Security Awareness,Compliance,True,2025-07-08,2025-08-12,Completed,100,82.0,3.1,3.5
+EMP063,Employee_164,Consulting,India,CRS014,Data Storytelling,Digital Learning,False,2025-04-19,2025-05-31,Completed,100,100.0,4.2,1.2
+EMP171,Employee_165,Legal,Australia,CRS004,Cyber Security Awareness,Compliance,True,2025-04-16,2025-04-21,Completed,100,95.0,3.4,2.9
+EMP120,Employee_166,Legal,Australia,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-01-02,,Not Started,0,,,0.0
+EMP142,Employee_167,Legal,US,CRS014,Data Storytelling,Digital Learning,False,2025-10-04,2025-10-21,Completed,100,71.0,3.2,8.8
+EMP068,Employee_168,Audit,US,CRS001,Data Privacy Fundamentals,Compliance,True,2025-06-15,2025-06-17,Completed,100,71.0,3.5,2.1
+EMP216,Employee_169,Tax,Germany,CRS009,AI & Ethics,Digital Learning,False,2025-02-02,2025-03-05,Completed,100,88.0,4.6,5.6
+EMP056,Employee_170,Finance,US,CRS008,Effective Communication,Leadership,False,2025-01-23,2025-03-11,Completed,100,93.0,3.6,6.8
+EMP016,Employee_171,Consulting,Singapore,CRS001,Data Privacy Fundamentals,Compliance,True,2025-08-07,,In Progress,75,,,1.0
+EMP228,Employee_172,Tax,UK,CRS002,Power BI Essentials,Technical,False,2025-03-17,,Completed,100,68.0,3.6,6.7
+EMP281,Employee_173,Audit,Singapore,CRS012,Emotional Intelligence,Leadership,False,2025-09-29,2025-10-18,Completed,100,89.0,4.0,4.9
+EMP059,Employee_174,Advisory,Germany,CRS014,Data Storytelling,Digital Learning,False,2025-10-10,2025-11-26,Completed,100,73.0,3.9,9.0
+EMP212,Employee_175,Consulting,Singapore,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-08-01,2025-09-17,Completed,100,66.0,3.6,3.8
+EMP131,Employee_176,LEGAL,Germany,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-08-31,2025-09-05,Completed,100,65.0,4.7,1.8
+EMP050,Employee_177,Advisory,UK,CRS012,Emotional Intelligence,Leadership,False,2025-03-08,,In Progress,75,,,0.8
+EMP288,Employee_178,Audit,Germany,CRS009,AI & Ethics,Digital Learning,False,2025-03-04,2025-03-31,Completed,100,82.0,4.7,9.5
+EMP217,Employee_179,Advisory,India,CRS014,Data Storytelling,Digital Learning,False,2025-05-28,,Overdue,50,,,0.6
+EMP054,Employee_180,Finance,US,CRS010,Code of Conduct,Compliance,True,2025-03-21,2025-05-03,Completed,100,90.0,3.4,2.0
+EMP285,Employee_181,Tax,UK,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-10-21,2025-11-05,Completed,100,87.0,4.7,9.8
+EMP286,Employee_182,Finance,Germany,CRS001,Data Privacy Fundamentals,Compliance,True,2025-05-17,2025-05-19,Completed,100,71.0,3.5,7.9
+EMP174,Employee_183,Tax,US,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-03-15,,Overdue,50,,,1.3
+EMP036,Employee_184,Advisory,Germany,CRS003,Leadership 101,Leadership,False,2025-01-16,,Not Started,0,,,0.0
+EMP047,Employee_185,Finance,US,CRS012,Emotional Intelligence,Leadership,False,2025-07-12,2025-08-08,Completed,100,89.0,3.7,4.3
+EMP167,Employee_186,Finance,Australia,CRS013,Digital Learning Design,Digital Learning,False,2025-02-13,,In Progress,25,,,1.2
+EMP026,Employee_187,Tax,UK,CRS011,SQL Fundamentals,Technical,False,2025-08-15,,Not Started,0,,,0.0
+EMP218,Employee_188,Finance,Singapore,CRS008,Effective Communication,Leadership,False,2025-08-01,2025-08-19,Completed,100,73.0,4.5,2.0
+EMP221,Employee_189,Audit,Germany,CRS002,Power BI Essentials,Technical,False,2025-09-07,2025-10-11,Completed,100,79.0,3.1,4.6
+EMP029,Employee_190,LEGAL,UK,CRS001,Data Privacy Fundamentals,Compliance,True,2025-04-19,2025-06-08,Completed,100,68.0,4.5,3.6
+EMP062,Employee_191,Consulting,Germany,CRS001,Data Privacy Fundamentals,Compliance,True,2025-08-09,2025-08-21,Completed,100,68.0,3.8,7.3
+EMP257,Employee_192,Advisory,UK,CRS009,AI & Ethics,Digital Learning,False,2025-02-06,,Not Started,0,,,0.0
+EMP204,Employee_193,Advisory,India,CRS014,Data Storytelling,Digital Learning,False,2025-08-12,,Overdue,0,,,0.9
+EMP040,Employee_194,Audit,Australia,CRS014,Data Storytelling,Digital Learning,False,2025-08-08,2025-09-14,Completed,100,85.0,4.4,4.8
+EMP059,Employee_195,Tax,UK,CRS007,Tableau for Analysts,Technical,False,2025-03-29,2025-05-20,Completed,100,99.0,3.9,7.2
+EMP186,Employee_196,Consulting,India,CRS002,Power BI Essentials,Technical,False,2025-05-05,2025-06-02,Completed,100,97.0,3.8,1.7
+EMP159,Employee_197,Audit,US,CRS012,Emotional Intelligence,Leadership,False,2025-06-20,,In Progress,25,,,0.8
+EMP059,Employee_198,tax,US,CRS009,AI & Ethics,Digital Learning,False,2025-06-28,,Not Started,0,,,0.0
+EMP180,Employee_199,Advisory,US,CRS012,Emotional Intelligence,Leadership,False,2025-05-01,,Not Started,0,,,0.0
+EMP053,Employee_200,Audit,US,CRS003,Leadership 101,Leadership,False,2025-03-30,,In Progress,75,,,1.2
+EMP039,Employee_201,Advisory,Singapore,CRS003,Leadership 101,Leadership,False,2025-08-26,2025-10-14,Completed,100,96.0,4.5,5.0
+EMP290,Employee_202,Advisory,Australia,CRS011,SQL Fundamentals,Technical,False,2025-06-15,2025-08-10,Completed,100,100.0,3.6,5.0
+EMP241,Employee_203,Advisory,UK,CRS008,Effective Communication,Leadership,False,2025-05-21,2025-06-28,Completed,100,63.0,3.7,1.7
+EMP237,Employee_204,Tax,India,CRS008,Effective Communication,Leadership,False,2025-07-08,,Not Started,0,,,0.0
+EMP147,Employee_205,Advisory,India,CRS002,Power BI Essentials,Technical,False,2025-09-17,2025-10-12,Completed,100,105.0,4.2,9.6
+EMP022,Employee_206,Finance,Germany,CRS008,Effective Communication,Leadership,False,2025-04-07,2025-04-28,Completed,100,98.0,4.0,2.4
+EMP032,Employee_207,Tax,UK,CRS008,Effective Communication,Leadership,False,2025-02-13,2025-03-18,Completed,100,71.0,3.1,7.4
+EMP225,Employee_208,Finance,Australia,CRS009,AI & Ethics,Digital Learning,False,2025-03-23,,In Progress,50,,,2.2
+EMP145,Employee_209,Consulting,UK,CRS007,Tableau for Analysts,Technical,False,2025-01-27,2025-03-19,Completed,100,100.0,4.3,1.6
+EMP049,Employee_210,Advisory,Singapore,CRS009,AI & Ethics,Digital Learning,False,2025-05-26,2025-06-12,Completed,100,98.0,4.7,4.0
+EMP299,Employee_211,Legal,UK,CRS011,SQL Fundamentals,Technical,False,2025-06-08,2025-07-20,Completed,100,85.0,3.3,7.4
+EMP044,Employee_212,Finance,Singapore,CRS005,Advanced Excel,Technical,False,2025-06-18,,In Progress,25,,,3.5
+EMP270,Employee_213,Advisory,Germany,CRS002,Power BI Essentials,Technical,False,2025-08-05,,In Progress,75,,,2.1
+EMP186,Employee_214,Legal,US,CRS005,Advanced Excel,Technical,False,2025-06-24,2025-08-13,Completed,100,91.0,3.4,10.0
+EMP080,Employee_215,Audit,India,CRS002,Power BI Essentials,Technical,False,2025-09-17,,In Progress,75,,,4.3
+EMP270,Employee_216,Advisory,UK,CRS001,Data Privacy Fundamentals,Compliance,True,2025-03-09,2025-04-17,Completed,100,84.0,3.3,2.6
+EMP085,Employee_217,Consulting,India,CRS012,Emotional Intelligence,Leadership,False,2025-07-30,2025-08-23,Completed,100,75.0,4.9,6.5
+EMP230,Employee_218,Finance,US,CRS004,Cyber Security Awareness,Compliance,True,2025-06-08,,In Progress,50,,,4.6
+EMP100,Employee_219,Advisory,Australia,CRS006,Anti-Bribery & Corruption,Compliance,True,15/03/2025,2025-09-13,Completed,100,78.0,4.6,5.5
+EMP215,Employee_220,Legal,Australia,CRS003,Leadership 101,Leadership,False,2025-03-12,,Not Started,0,,,0.0
+EMP129,Employee_221,Advisory,Singapore,CRS001,Data Privacy Fundamentals,Compliance,True,2025-07-10,,In Progress,75,,,4.7
+EMP265,Employee_222,Tax,UK,CRS014,Data Storytelling,Digital Learning,False,2025-02-12,2025-04-02,Completed,100,70.0,3.5,9.1
+EMP076,Employee_223,Consulting,India,CRS014,Data Storytelling,Digital Learning,False,2025-04-24,2025-06-16,Completed,100,88.0,4.8,9.4
+EMP213,Employee_224,Consulting,Australia,CRS001,Data Privacy Fundamentals,Compliance,True,2025-07-11,2025-07-27,Completed,100,84.0,5.0,4.4
+EMP015,Employee_225,Tax,Germany,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-06-21,2025-08-11,Completed,100,69.0,3.3,3.6
+EMP242,Employee_226,Legal,Germany,CRS012,Emotional Intelligence,Leadership,False,2025-08-29,2025-09-27,Completed,100,99.0,3.0,1.7
+EMP132,Employee_227,Legal,Australia,CRS004,Cyber Security Awareness,Compliance,True,2025-09-28,,Overdue,25,,,0.2
+EMP148,Employee_228,Audit,India,CRS004,Cyber Security Awareness,Compliance,True,2025-01-25,2025-02-10,Completed,100,86.0,4.3,6.6
+EMP033,Employee_229,Consulting,Australia,CRS002,Power BI Essentials,Technical,False,2025-10-02,,Not Started,0,,,0.0
+EMP009,Employee_230,Finance,Australia,CRS011,SQL Fundamentals,Technical,False,2025-05-04,2025-06-19,Completed,100,69.0,3.6,1.0
+EMP181,Employee_231,Finance,Singapore,CRS004,Cyber Security Awareness,Compliance,True,2025-04-06,,In Progress,75,,,3.5
+EMP269,Employee_232,Tax,Australia,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-10-06,2025-11-08,Completed,100,92.0,4.1,4.5
+EMP241,Employee_233,Advisory,Singapore,CRS001,Data Privacy Fundamentals,Compliance,True,2025-07-11,2025-07-28,Completed,100,61.0,3.7,1.6
+EMP124,Employee_234,Advisory,Germany,CRS012,Emotional Intelligence,Leadership,False,2025-02-23,2025-04-14,Completed,100,97.0,4.5,4.0
+EMP023,Employee_235,Finance,UK,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-03-31,2025-05-24,Completed,100,89.0,5.0,5.3
+EMP094,Employee_236,Legal,India,CRS013,Digital Learning Design,Digital Learning,False,2025-08-23,,In Progress,25,,,1.8
+EMP023,Employee_237,Legal,USA,CRS013,Digital Learning Design,Digital Learning,False,2025-06-11,2025-08-10,Completed,100,79.0,4.0,9.9
+EMP279,Employee_238,Audit,India,CRS008,Effective Communication,Leadership,False,2025-04-08,2025-04-27,Completed,100,82.0,4.7,1.4
+EMP170,Employee_239,Tax,UK,CRS005,Advanced Excel,Technical,False,2025-08-12,2025-10-08,Completed,100,85.0,4.5,9.1
+EMP198,Employee_240,Legal,Singapore,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-09-12,2025-10-06,Completed,100,93.0,3.5,1.7
+EMP218,Employee_241,Consulting,Australia,CRS002,Power BI Essentials,Technical,False,2025-04-03,,Overdue,50,,,0.6
+EMP053,Employee_242,Audit,Germany,CRS002,Power BI Essentials,Technical,False,2025-06-01,,Overdue,25,,,0.9
+EMP219,Employee_243,Advisory,Singapore,CRS003,Leadership 101,Leadership,False,2025-06-29,,Overdue,25,,,0.1
+EMP181,Employee_244,Consulting,UK,CRS010,Code of Conduct,Compliance,True,2025-01-30,2025-02-04,Completed,100,100.0,3.8,5.6
+EMP082,Employee_245,Legal,Australia,CRS001,Data Privacy Fundamentals,Compliance,True,2025-08-13,2025-08-16,Completed,100,68.0,3.1,8.0
+EMP188,Employee_246,Consulting,Australia,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-01-17,,Overdue,50,,,0.3
+EMP231,Employee_247,Audit,Singapore,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-02-09,2025-03-18,Completed,100,68.0,4.1,4.6
+EMP143,Employee_248,Tax,India,CRS004,Cyber Security Awareness,Compliance,True,2025-04-06,,Overdue,25,,,1.0
+EMP288,Employee_249,Audit,UK,CRS002,Power BI Essentials,Technical,False,2025-08-17,,Overdue,0,,,2.0
+EMP147,Employee_250,Consulting,US,CRS012,Emotional Intelligence,Leadership,False,2025-03-04,,Not Started,0,,,0.0
+EMP070,Employee_251,Tax,Singapore,CRS014,Data Storytelling,Digital Learning,False,2025-03-30,2025-05-27,Completed,100,88.0,5.0,8.3
+EMP164,Employee_252,Audit,Germany,CRS011,SQL Fundamentals,Technical,False,2025-02-03,2025-03-11,Completed,100,94.0,3.6,3.7
+EMP081,Employee_253,Advisory,Germany,CRS012,Emotional Intelligence,Leadership,False,2025-03-31,,Not Started,0,,,0.0
+EMP186,Employee_254,Legal,India,CRS009,AI & Ethics,Digital Learning,False,2025-04-13,2025-06-03,Completed,100,68.0,3.5,5.4
+EMP185,Employee_255,Finance,UK,CRS009,AI & Ethics,Digital Learning,False,2025-08-28,2025-10-19,Completed,100,95.0,3.3,9.0
+EMP034,Employee_256,Consulting,Germany,CRS005,Advanced Excel,Technical,False,2025-09-03,2025-10-07,Completed,100,86.0,4.5,8.4
+EMP038,Employee_257,Audit,Germany,CRS003,Leadership 101,Leadership,False,2025-02-07,,Overdue,25,,,0.9
+EMP265,Employee_258,Legal,Australia,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-10-28,,In Progress,25,,,4.0
+EMP067,Employee_259,Finance,India,CRS007,Tableau for Analysts,Technical,False,2025-03-05,2025-04-08,Completed,100,69.0,3.6,2.5
+EMP116,Employee_260,Finance,UK,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-02-10,2025-02-27,Completed,100,72.0,4.3,6.0
+EMP065,Employee_261,Audit,Australia,CRS011,SQL Fundamentals,Technical,False,2025-10-01,2025-10-07,Completed,100,92.0,4.3,6.3
+EMP298,Employee_262,Legal,Germany,CRS003,Leadership 101,Leadership,False,2025-06-22,,Overdue,50,,,0.1
+EMP015,Employee_263,Tax,Germany,CRS002,Power BI Essentials,Technical,False,2025-10-23,2025-11-09,Completed,100,73.0,4.5,4.7
+EMP016,Employee_264,Advisory,Australia,CRS008,Effective Communication,Leadership,False,2025-05-29,2025-07-10,Completed,100,79.0,4.0,8.2
+EMP208,Employee_265,Consulting,India,CRS005,Advanced Excel,Technical,False,2025-01-31,,Not Started,0,,,0.0
+EMP081,Employee_266,Consulting,Singapore,CRS008,Effective Communication,Leadership,False,2025-08-26,,In Progress,25,,,2.0
+EMP074,Employee_267,Advisory,UK,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-06-26,,In Progress,50,,,1.1
+EMP190,Employee_268,Finance,India,CRS009,AI & Ethics,Digital Learning,False,2025-06-13,,In Progress,25,,,2.6
+EMP137,Employee_269,Legal,US,CRS008,Effective Communication,Leadership,False,2025-02-19,2025-02-23,Completed,100,78.0,4.9,8.8
+EMP215,Employee_270,LEGAL,UK,CRS004,Cyber Security Awareness,Compliance,True,2025-10-23,2025-12-09,Completed,100,80.0,3.4,2.4
+EMP264,Employee_271,Consulting,UK,CRS008,Effective Communication,Leadership,False,2025-09-12,,Not Started,0,,,0.0
+EMP012,Employee_272,Consulting,Australia,CRS002,Power BI Essentials,Technical,False,2025-08-23,,Not Started,0,,,0.0
+EMP124,Employee_273,Finance,UK,CRS004,Cyber Security Awareness,Compliance,True,2025-01-25,,Not Started,0,,,0.0
+EMP026,Employee_274,Consulting,Australia,CRS005,Advanced Excel,Technical,False,2025-08-29,,Overdue,25,,,1.1
+EMP056,Employee_275,Legal,UK,CRS007,Tableau for Analysts,Technical,False,2025-07-07,2025-08-25,Completed,100,85.0,3.7,4.6
+EMP292,Employee_276,Legal,UK,CRS009,AI & Ethics,Digital Learning,False,2025-10-11,2025-10-30,Completed,100,64.0,3.8,5.1
+EMP282,Employee_277,Finance,Germany,CRS005,Advanced Excel,Technical,False,2025-03-02,,In Progress,25,,,4.9
+EMP202,Employee_278,Audit,Australia,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-07-07,2025-08-25,Completed,100,69.0,3.4,5.6
+EMP257,Employee_279,Tax,India,CRS001,Data Privacy Fundamentals,Compliance,True,2025-03-12,,In Progress,75,,,2.0
+EMP243,Employee_280,Consulting,US,CRS009,AI & Ethics,Digital Learning,False,2025-09-21,,In Progress,25,,,2.0
+EMP164,Employee_281,Consulting,Australia,CRS003,Leadership 101,Leadership,False,2025-06-03,,Not Started,0,,,0.0
+EMP173,Employee_282,Finance,Australia,CRS009,AI & Ethics,Digital Learning,False,2025-09-08,2025-10-24,Completed,100,96.0,3.6,8.3
+EMP189,Employee_283,Advisory,India,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-08-02,2025-09-09,Completed,100,79.0,4.6,7.5
+EMP014,Employee_284,Consulting,UK,CRS010,Code of Conduct,Compliance,True,2025-10-24,2025-11-30,Completed,100,74.0,4.4,6.3
+EMP088,Employee_285,Advisory,Germany,CRS009,AI & Ethics,Digital Learning,False,2025-07-14,2025-07-24,Completed,100,75.0,3.1,9.5
+EMP057,Employee_286,Tax,Singapore,CRS004,Cyber Security Awareness,Compliance,True,2025-06-10,2025-07-07,Completed,100,69.0,3.8,2.8
+EMP257,Employee_287,Finance,Singapore,CRS013,Digital Learning Design,Digital Learning,False,2025-02-01,2025-03-19,Completed,100,68.0,4.0,6.0
+EMP245,Employee_288,Consulting,UK,CRS009,AI & Ethics,Digital Learning,False,2025-03-30,2025-04-29,Completed,100,94.0,3.7,4.2
+EMP136,Employee_289,Consulting,US,CRS010,Code of Conduct,Compliance,True,2025-05-07,2025-05-25,Completed,100,95.0,3.6,9.5
+EMP153,Employee_290,Audit,Germany,CRS013,Digital Learning Design,Digital Learning,False,2025-04-17,2025-06-01,Completed,100,91.0,3.6,4.1
+EMP141,Employee_291,Tax,Australia,CRS005,Advanced Excel,Technical,False,2025-10-06,2025-10-31,Completed,100,85.0,4.6,9.6
+EMP075,Employee_292,Tax,UK,CRS005,Advanced Excel,Technical,False,2025-02-10,,Completed,100,88.0,4.3,7.7
+EMP110,Employee_293,Finance,UK,CRS004,Cyber Security Awareness,Compliance,True,2025-10-15,,Not Started,0,,,0.0
+EMP140,Employee_294,Tax,Australia,CRS003,Leadership 101,Leadership,False,2025-10-28,2025-11-13,Completed,100,75.0,3.1,9.1
+EMP116,Employee_295,Legal,India,CRS011,SQL Fundamentals,Technical,False,2025-02-21,2025-03-20,Completed,100,105.0,4.4,1.9
+EMP071,Employee_296,Finance,US,CRS001,Data Privacy Fundamentals,Compliance,True,2025-07-28,2025-09-08,Completed,100,90.0,4.0,2.8
+EMP148,Employee_297,Audit,Germany,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-01-31,,In Progress,25,,,3.4
+EMP119,Employee_298,Advisory,Germany,CRS009,AI & Ethics,Digital Learning,False,2025-01-20,2025-03-20,Completed,100,71.0,3.8,8.5
+EMP019,Employee_299,Consulting,Singapore,CRS014,Data Storytelling,Digital Learning,False,2025-04-06,2025-06-05,Completed,100,78.0,4.8,1.1
+EMP291,Employee_300,Tax,UK,CRS010,Code of Conduct,Compliance,True,2025-05-26,2025-06-25,Completed,100,94.0,4.0,9.0
+EMP069,Employee_301,Finance,Singapore,CRS014,Data Storytelling,Digital Learning,False,2025-05-20,2025-06-02,Completed,100,67.0,3.7,7.6
+EMP132,Employee_302,Legal,India,CRS012,Emotional Intelligence,Leadership,False,2025-06-22,2025-08-12,Completed,100,78.0,4.1,7.8
+EMP090,Employee_303,Advisory,Singapore,CRS010,Code of Conduct,Compliance,True,2025-08-07,2025-09-09,Completed,100,80.0,3.2,7.0
+EMP095,Employee_304,Consulting,UK,CRS003,Leadership 101,Leadership,False,2025-05-08,2025-05-09,Completed,100,76.0,3.8,5.0
+EMP137,Employee_305,Audit,Australia,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-10-21,,In Progress,25,,,1.7
+EMP185,Employee_306,Legal,India,CRS012,Emotional Intelligence,Leadership,False,2025-03-02,,Overdue,25,,,0.6
+EMP208,Employee_307,Finance,Germany,CRS011,SQL Fundamentals,Technical,False,2025-06-09,2025-07-24,Completed,100,67.0,4.3,9.5
+EMP189,Employee_308,Legal,US,CRS010,Code of Conduct,Compliance,True,2025-03-10,2025-04-10,Completed,100,69.0,3.9,9.9
+EMP192,Employee_309,Advisory,Australia,CRS007,Tableau for Analysts,Technical,False,2025-08-30,,In Progress,75,,,4.1
+EMP112,Employee_310,Legal,Germany,CRS013,Digital Learning Design,Digital Learning,False,2025-02-11,2025-03-17,Completed,100,88.0,4.1,4.3
+EMP289,Employee_311,Tax,Australia,CRS002,Power BI Essentials,Technical,False,2025-09-16,2025-09-29,Completed,100,96.0,4.1,2.5
+EMP267,Employee_312,Tax,Germany,CRS008,Effective Communication,Leadership,False,2025-04-16,2025-06-01,Completed,100,97.0,4.0,9.1
+EMP229,Employee_313,tax,Singapore,CRS013,Digital Learning Design,Digital Learning,False,2025-03-09,2025-04-11,Completed,100,86.0,3.9,1.5
+EMP237,Employee_314,Audit,Germany,CRS011,SQL Fundamentals,Technical,False,2025-01-12,,Overdue,25,,,0.5
+EMP002,Employee_315,Legal,Australia,CRS012,Emotional Intelligence,Leadership,False,2025-02-07,,Not Started,0,,,0.0
+EMP024,Employee_316,Audit,Germany,CRS007,Tableau for Analysts,Technical,False,2025-02-02,,In Progress,75,,,5.0
+EMP036,Employee_317,Consulting,India,CRS015,Time Management,Leadership,False,2025-05-27,,Completed,100,71.0,4.5,7.9
+EMP216,Employee_318,Consulting,Singapore,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-07-13,2025-08-07,Completed,100,65.0,4.4,7.0
+EMP277,Employee_319,Advisory,UK,CRS003,Leadership 101,Leadership,False,15/03/2025,2025-03-14,Completed,100,94.0,3.8,2.1
+EMP115,Employee_320,Tax,India,CRS014,Data Storytelling,Digital Learning,False,2025-06-02,2025-07-02,Completed,100,94.0,3.8,4.4
+EMP118,Employee_321,Consulting,UK,CRS004,Cyber Security Awareness,Compliance,True,2025-03-21,2025-04-08,Completed,100,72.0,4.9,7.5
+EMP058,Employee_322,Advisory,Singapore,CRS001,Data Privacy Fundamentals,Compliance,True,2025-01-09,,In Progress,25,,,1.4
+EMP052,Employee_323,Tax,Singapore,CRS010,Code of Conduct,Compliance,True,2025-01-25,,In Progress,25,,,3.8
+EMP206,Employee_324,Legal,Australia,CRS008,Effective Communication,Leadership,False,2025-04-22,2025-06-10,Completed,100,63.0,3.3,9.9
+EMP120,Employee_325,Advisory,Australia,CRS014,Data Storytelling,Digital Learning,False,2025-06-13,,Overdue,50,,,1.2
+EMP165,Employee_326,Audit,US,CRS004,Cyber Security Awareness,Compliance,True,2025-09-24,,In Progress,25,,,2.4
+EMP141,Employee_327,Finance,Australia,CRS001,Data Privacy Fundamentals,Compliance,True,2025-03-31,2025-05-11,Completed,100,87.0,4.1,1.4
+EMP177,Employee_328,Advisory,Singapore,CRS011,SQL Fundamentals,Technical,False,2025-09-26,2025-10-17,Completed,100,86.0,3.8,3.7
+EMP095,Employee_329,Finance,Singapore,CRS013,Digital Learning Design,Digital Learning,False,2025-05-04,2025-06-28,Completed,100,74.0,3.6,7.4
+EMP238,Employee_330,Tax,Australia,CRS015,Time Management,Leadership,False,2025-07-31,2025-08-27,Completed,100,95.0,4.1,4.5
+EMP131,Employee_331,Audit,Germany,CRS004,Cyber Security Awareness,Compliance,True,2025-02-10,2025-04-11,Completed,100,88.0,4.7,1.8
+EMP098,Employee_332,Audit,Singapore,CRS001,Data Privacy Fundamentals,Compliance,True,2025-01-21,,In Progress,25,,,1.3
+EMP287,Employee_333,Consulting,US,CRS004,Cyber Security Awareness,Compliance,True,2025-06-20,2025-07-10,Completed,100,60.0,3.4,2.7
+EMP061,Employee_334,Consulting,US,CRS012,Emotional Intelligence,Leadership,False,2025-04-15,2025-05-11,Completed,100,75.0,4.1,8.0
+EMP195,Employee_335,Finance,Germany,CRS008,Effective Communication,Leadership,False,2025-07-03,2025-07-23,Completed,100,76.0,3.7,8.9
+EMP239,Employee_336,Advisory,Singapore,CRS002,Power BI Essentials,Technical,False,2025-06-13,2025-08-11,Completed,100,73.0,3.7,4.7
+EMP289,Employee_337,LEGAL,Germany,CRS014,Data Storytelling,Digital Learning,False,2025-03-16,,Not Started,0,,,0.0
+EMP009,Employee_338,Finance,Australia,CRS005,Advanced Excel,Technical,False,2025-10-24,,In Progress,75,,,2.4
+EMP079,Employee_339,Audit,US,CRS004,Cyber Security Awareness,Compliance,True,2025-07-14,2025-08-20,Completed,100,75.0,4.0,6.9
+EMP173,Employee_340,Consulting,Germany,CRS005,Advanced Excel,Technical,False,2025-09-09,2025-10-09,Completed,100,70.0,4.5,4.2
+EMP072,Employee_341,Finance,Singapore,CRS012,Emotional Intelligence,Leadership,False,2025-04-05,2025-06-03,Completed,100,94.0,5.0,9.6
+EMP269,Employee_342,Tax,Germany,CRS001,Data Privacy Fundamentals,Compliance,True,2025-01-25,,Completed,100,60.0,3.8,8.6
+EMP119,Employee_343,Advisory,US,CRS002,Power BI Essentials,Technical,False,2025-01-05,2025-01-19,Completed,100,92.0,3.9,1.5
+EMP248,Employee_344,Consulting,India,CRS011,SQL Fundamentals,Technical,False,2025-01-04,2025-02-08,Completed,100,95.0,3.8,1.2
+EMP141,Employee_345,Audit,India,CRS009,AI & Ethics,Digital Learning,False,2025-09-15,2025-11-07,Completed,100,87.0,4.6,9.2
+EMP055,Employee_346,Tax,Australia,CRS015,Time Management,Leadership,False,2025-03-18,2025-04-03,Completed,100,72.0,4.2,3.3
+EMP182,Employee_347,Consulting,India,CRS005,Advanced Excel,Technical,False,2025-07-11,2025-08-06,Completed,100,89.0,4.1,9.9
+EMP116,Employee_348,Advisory,India,CRS005,Advanced Excel,Technical,False,2025-01-17,2025-01-23,Completed,100,85.0,3.8,6.0
+EMP029,Employee_349,Tax,Germany,CRS011,SQL Fundamentals,Technical,False,2025-03-29,2025-04-04,Completed,100,91.0,4.7,6.8
+EMP170,Employee_350,Tax,Australia,CRS010,Code of Conduct,Compliance,True,2025-01-22,2025-02-06,Completed,100,73.0,4.8,7.2
+EMP291,Employee_351,Audit,India,CRS008,Effective Communication,Leadership,False,2025-02-08,2025-03-24,Completed,100,77.0,4.8,6.1
+EMP017,Employee_352,Audit,India,CRS003,Leadership 101,Leadership,False,2025-04-17,,Not Started,0,,,0.0
+EMP074,Employee_353,Advisory,Singapore,CRS013,Digital Learning Design,Digital Learning,False,2025-02-09,,In Progress,50,,,1.2
+EMP124,Employee_354,Consulting,Germany,CRS010,Code of Conduct,Compliance,True,2025-10-04,2025-10-26,Completed,100,84.0,4.5,2.3
+EMP041,Employee_355,Advisory,UK,CRS009,AI & Ethics,Digital Learning,False,2025-01-28,2025-02-04,Completed,100,87.0,3.5,1.7
+EMP204,Employee_356,Audit,India,CRS013,Digital Learning Design,Digital Learning,False,2025-05-20,,Completed,100,88.0,4.0,4.2
+EMP193,Employee_357,Legal,Germany,CRS007,Tableau for Analysts,Technical,False,2025-10-27,2025-12-09,Completed,100,84.0,3.2,6.6
+EMP127,Employee_358,Tax,India,CRS012,Emotional Intelligence,Leadership,False,2025-05-18,2025-05-28,Completed,100,84.0,4.4,6.7
+EMP200,Employee_359,Audit,India,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-02-16,,Overdue,0,,,1.9
+EMP228,Employee_360,Audit,India,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-03-09,2025-03-15,Completed,100,71.0,3.9,6.0
+EMP263,Employee_361,Tax,India,CRS007,Tableau for Analysts,Technical,False,2025-02-15,,Completed,100,95.0,3.2,6.4
+EMP167,Employee_362,Consulting,India,CRS014,Data Storytelling,Digital Learning,False,2025-05-30,2025-06-26,Completed,100,84.0,4.6,7.5
+EMP287,Employee_363,Legal,Australia,CRS015,Time Management,Leadership,False,2025-09-24,2025-10-05,Completed,100,84.0,3.3,3.4
+EMP138,Employee_364,Legal,India,CRS008,Effective Communication,Leadership,False,2025-03-27,2025-04-24,Completed,100,77.0,3.8,5.4
+EMP040,Employee_365,Audit,US,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-09-11,,Overdue,50,,,1.2
+EMP235,Employee_366,Legal,UK,CRS002,Power BI Essentials,Technical,False,2025-01-04,2025-01-30,Completed,100,81.0,4.7,4.4
+EMP169,Employee_367,Audit,Singapore,CRS008,Effective Communication,Leadership,False,2025-03-11,,Overdue,25,,,0.6
+EMP103,Employee_368,Audit,US,CRS008,Effective Communication,Leadership,False,2025-07-23,,Overdue,25,,,0.6
+EMP252,Employee_369,Legal,UK,CRS010,Code of Conduct,Compliance,True,2025-07-12,2025-07-30,Completed,100,85.0,3.7,9.4
+EMP103,Employee_370,Finance,US,CRS010,Code of Conduct,Compliance,True,2025-10-09,,Completed,100,89.0,4.9,2.9
+EMP150,Employee_371,Advisory,India,CRS014,Data Storytelling,Digital Learning,False,2025-07-29,2025-09-11,Completed,100,91.0,3.3,3.7
+EMP130,Employee_372,Legal,Germany,CRS011,SQL Fundamentals,Technical,False,2025-08-05,2025-09-25,Completed,100,84.0,3.1,9.9
+EMP246,Employee_373,Consulting,Australia,CRS010,Code of Conduct,Compliance,True,2025-09-17,2025-11-16,Completed,100,86.0,4.1,8.1
+EMP185,Employee_374,Finance,Australia,CRS012,Emotional Intelligence,Leadership,False,2025-02-13,,In Progress,25,,,4.0
+EMP182,Employee_375,Advisory,Australia,CRS003,Leadership 101,Leadership,False,2025-01-23,2025-03-01,Completed,100,85.0,4.9,4.0
+EMP221,Employee_376,Tax,India,CRS002,Power BI Essentials,Technical,False,2025-05-13,2025-05-28,Completed,100,92.0,4.5,6.0
+EMP295,Employee_377,Consulting,UK,CRS004,Cyber Security Awareness,Compliance,True,2025-07-20,,Not Started,0,,,0.0
+EMP238,Employee_378,Advisory,Australia,CRS013,Digital Learning Design,Digital Learning,False,2025-09-14,2025-09-24,Completed,100,82.0,5.0,5.3
+EMP152,Employee_379,Tax,India,CRS007,Tableau for Analysts,Technical,False,2025-03-14,,Not Started,0,,,0.0
+EMP179,Employee_380,Audit,Singapore,CRS005,Advanced Excel,Technical,False,2025-04-16,2025-05-20,Completed,100,90.0,3.7,1.9
+EMP232,Employee_381,Tax,UK,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-01-23,2025-03-16,Completed,100,67.0,3.0,4.1
+EMP056,Employee_382,Legal,india,CRS011,SQL Fundamentals,Technical,False,2025-05-05,,In Progress,75,,,1.3
+EMP082,Employee_383,Finance,Singapore,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-08-25,2025-09-09,Completed,100,85.0,4.3,2.7
+EMP222,Employee_384,Tax,Germany,CRS007,Tableau for Analysts,Technical,False,2025-04-12,,Not Started,0,,,0.0
+EMP231,Employee_385,Consulting,Singapore,CRS010,Code of Conduct,Compliance,True,2025-01-03,,In Progress,75,,,1.5
+EMP143,Employee_386,Advisory,India,CRS013,Digital Learning Design,Digital Learning,False,2025-10-23,,Not Started,0,,,0.0
+EMP053,Employee_387,Finance,US,CRS013,Digital Learning Design,Digital Learning,False,2025-07-07,2025-07-28,Completed,100,72.0,3.9,3.4
+EMP251,Employee_388,Advisory,UK,CRS009,AI & Ethics,Digital Learning,False,2025-07-18,2025-08-27,Completed,100,85.0,4.2,4.1
+EMP235,Employee_389,Legal,Germany,CRS010,Code of Conduct,Compliance,True,2025-06-02,,In Progress,75,,,3.2
+EMP069,Employee_390,Tax,US,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-06-06,,Not Started,0,,,0.0
+EMP060,Employee_391,Audit,Germany,CRS003,Leadership 101,Leadership,False,2025-03-14,,Overdue,50,,,-2.0
+EMP071,Employee_392,Consulting,Singapore,CRS010,Code of Conduct,Compliance,True,2025-04-06,2025-05-08,Completed,100,100.0,4.1,9.3
+EMP089,Employee_393,Legal,Singapore,CRS009,AI & Ethics,Digital Learning,False,2025-05-28,2025-06-06,Completed,100,71.0,3.6,5.1
+EMP028,Employee_394,Audit,India,CRS014,Data Storytelling,Digital Learning,False,2025-09-06,,In Progress,25,,,1.4
+EMP197,Employee_395,Finance,Germany,CRS009,AI & Ethics,Digital Learning,False,2025-09-11,2025-10-08,Completed,100,91.0,3.8,8.6
+EMP251,Employee_396,Tax,Australia,CRS003,Leadership 101,Leadership,False,2025-01-16,,Overdue,0,,,0.6
+EMP141,Employee_397,Finance,UK,CRS004,Cyber Security Awareness,Compliance,True,2025-03-28,,Not Started,0,,,0.0
+EMP235,Employee_398,tax,Singapore,CRS010,Code of Conduct,Compliance,True,2025-10-09,2025-11-11,Completed,100,67.0,4.1,3.4
+EMP279,Employee_399,Audit,Australia,CRS014,Data Storytelling,Digital Learning,False,2025-01-22,,In Progress,75,,,2.5
+EMP112,Employee_400,Tax,Germany,CRS007,Tableau for Analysts,Technical,False,2025-05-07,,In Progress,50,,,4.4
+EMP017,Employee_401,Audit,UK,CRS008,Effective Communication,Leadership,False,2025-02-14,2025-03-15,Completed,100,67.0,4.6,3.1
+EMP180,Employee_402,Advisory,Australia,CRS014,Data Storytelling,Digital Learning,False,2025-08-08,,Overdue,0,,,1.2
+EMP106,Employee_403,Legal,India,CRS014,Data Storytelling,Digital Learning,False,2025-10-19,2025-11-11,Completed,100,94.0,3.6,5.8
+EMP166,Employee_404,Audit,UK,CRS012,Emotional Intelligence,Leadership,False,2025-10-21,,Not Started,0,,,0.0
+EMP137,Employee_405,Finance,Germany,CRS014,Data Storytelling,Digital Learning,False,2025-02-18,2025-02-27,Completed,100,86.0,4.8,9.9
+EMP065,Employee_406,Legal,india,CRS012,Emotional Intelligence,Leadership,False,2025-03-16,,Not Started,0,,,0.0
+EMP165,Employee_407,Legal,Germany,CRS014,Data Storytelling,Digital Learning,False,2025-07-21,2025-08-22,Completed,100,69.0,4.2,3.4
+EMP213,Employee_408,Consulting,India,CRS007,Tableau for Analysts,Technical,False,2025-02-17,2025-03-15,Completed,100,92.0,4.5,7.3
+EMP189,Employee_409,Consulting,UK,CRS008,Effective Communication,Leadership,False,2025-10-25,,Overdue,0,,,1.7
+EMP048,Employee_410,Consulting,Germany,CRS012,Emotional Intelligence,Leadership,False,2025-07-03,2025-08-27,Completed,100,64.0,4.6,4.6
+EMP220,Employee_411,Legal,Singapore,CRS014,Data Storytelling,Digital Learning,False,2025-05-18,2025-06-08,Completed,100,78.0,3.7,6.2
+EMP290,Employee_412,Consulting,UK,CRS014,Data Storytelling,Digital Learning,False,2025-01-25,,Overdue,0,,,0.2
+EMP236,Employee_413,Tax,US,CRS001,Data Privacy Fundamentals,Compliance,True,2025-08-14,,Overdue,25,,,0.0
+EMP220,Employee_414,Advisory,US,CRS004,Cyber Security Awareness,Compliance,True,2025-06-04,2025-06-15,Completed,100,77.0,3.2,4.2
+EMP043,Employee_415,Advisory,Germany,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-03-26,2025-03-30,Completed,100,85.0,4.3,7.5
+EMP120,Employee_416,Advisory,India,CRS007,Tableau for Analysts,Technical,False,2025-02-18,2025-02-19,Completed,100,73.0,4.0,2.2
+EMP116,Employee_417,Advisory,Singapore,CRS009,AI & Ethics,Digital Learning,False,2025-01-05,2025-01-06,Completed,100,81.0,4.6,9.9
+EMP217,Employee_418,Legal,Singapore,CRS012,Emotional Intelligence,Leadership,False,2025-02-06,2025-02-21,Completed,100,84.0,3.2,8.3
+EMP053,Employee_419,Audit,UK,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-03-12,,In Progress,50,,,4.0
+EMP069,Employee_420,Advisory,US,CRS011,SQL Fundamentals,Technical,False,2025-02-05,,In Progress,75,,,3.0
+EMP085,Employee_421,Audit,Germany,CRS008,Effective Communication,Leadership,False,2025-04-20,,In Progress,75,,,3.9
+EMP211,Employee_422,Advisory,Singapore,CRS010,Code of Conduct,Compliance,True,2025-04-22,,In Progress,25,,,4.5
+EMP072,Employee_423,Tax,Australia,CRS013,Digital Learning Design,Digital Learning,False,2025-07-16,2025-08-08,Completed,100,87.0,3.6,2.3
+EMP142,Employee_424,Tax,US,CRS011,SQL Fundamentals,Technical,False,2025-10-11,2025-11-19,Completed,100,98.0,4.4,3.6
+EMP014,Employee_425,Advisory,UK,CRS014,Data Storytelling,Digital Learning,False,2025-04-16,2025-05-20,Completed,100,98.0,4.0,7.7
+EMP152,Employee_426,Tax,US,CRS011,SQL Fundamentals,Technical,False,2025-09-11,2025-10-06,Completed,100,67.0,3.5,6.7
+EMP037,Employee_427,Tax,UK,CRS009,AI & Ethics,Digital Learning,False,2025-06-12,2025-06-21,Completed,100,84.0,4.7,6.1
+EMP188,Employee_428,Advisory,US,CRS009,AI & Ethics,Digital Learning,False,2025-08-30,,Not Started,0,,,0.0
+EMP038,Employee_429,Finance,India,CRS001,Data Privacy Fundamentals,Compliance,True,2025-01-08,2025-01-25,Completed,100,73.0,3.1,1.5
+EMP204,Employee_430,Audit,Germany,CRS009,AI & Ethics,Digital Learning,False,2025-09-14,2025-11-03,Completed,100,86.0,3.8,4.6
+EMP275,Employee_431,Finance,US,CRS009,AI & Ethics,Digital Learning,False,2025-05-23,2025-05-29,Completed,100,79.0,3.2,9.3
+EMP080,Employee_432,Audit,Singapore,CRS009,AI & Ethics,Digital Learning,False,2025-10-28,,In Progress,75,,,3.9
+EMP034,Employee_433,Advisory,Singapore,CRS005,Advanced Excel,Technical,False,2025-05-03,2025-05-07,Completed,100,75.0,3.2,4.9
+EMP233,Employee_434,Finance,India,CRS010,Code of Conduct,Compliance,True,2025-06-08,2025-07-21,Completed,100,71.0,3.2,7.4
+EMP006,Employee_435,Consulting,UK,CRS003,Leadership 101,Leadership,False,2025-09-25,2025-10-29,Completed,100,76.0,3.3,2.1
+EMP138,Employee_436,Tax,India,CRS012,Emotional Intelligence,Leadership,False,2025-06-21,,In Progress,50,,,1.7
+EMP033,Employee_437,tax,Australia,CRS005,Advanced Excel,Technical,False,2025-02-09,,Completed,100,89.0,4.0,1.5
+EMP291,Employee_438,tax,US,CRS003,Leadership 101,Leadership,False,2025-05-11,,Not Started,0,,,0.0
+EMP053,Employee_439,Finance,Germany,CRS015,Time Management,Leadership,False,2025-03-01,,In Progress,25,,,3.8
+EMP002,Employee_440,Tax,US,CRS001,Data Privacy Fundamentals,Compliance,True,2025-01-24,2025-02-24,Completed,100,83.0,3.8,2.4
+EMP019,Employee_441,Advisory,Germany,CRS009,AI & Ethics,Digital Learning,False,2025-08-03,2025-08-18,Completed,100,80.0,3.5,9.2
+EMP164,Employee_442,Tax,Australia,CRS005,Advanced Excel,Technical,False,2025-07-10,,Overdue,0,,,1.0
+EMP027,Employee_443,Legal,Australia,CRS003,Leadership 101,Leadership,False,2025-01-24,2025-02-19,Completed,100,64.0,4.8,8.8
+EMP160,Employee_444,Tax,Australia,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-08-22,,Completed,100,83.0,3.4,6.1
+EMP156,Employee_445,Finance,US,CRS012,Emotional Intelligence,Leadership,False,2025-08-26,,Not Started,0,,,0.0
+EMP189,Employee_446,Consulting,US,CRS010,Code of Conduct,Compliance,True,2025-10-07,,Overdue,0,,,0.3
+EMP210,Employee_447,Legal,Australia,CRS001,Data Privacy Fundamentals,Compliance,True,2025-06-27,,Overdue,50,,,1.7
+EMP005,Employee_448,Tax,Germany,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-07-12,,In Progress,75,,,3.8
+EMP054,Employee_449,Finance,US,CRS004,Cyber Security Awareness,Compliance,True,2025-08-03,2025-09-04,Completed,100,63.0,4.9,2.3
+EMP144,Employee_450,Tax,US,CRS002,Power BI Essentials,Technical,False,2025-09-24,2025-10-21,Completed,100,83.0,3.9,7.7
+EMP298,Employee_451,Finance,US,CRS002,Power BI Essentials,Technical,False,2025-07-21,,In Progress,25,,,3.2
+EMP032,Employee_452,Advisory,US,CRS007,Tableau for Analysts,Technical,False,2025-05-02,2025-05-21,Completed,100,76.0,4.7,9.3
+EMP202,Employee_453,Advisory,UK,CRS012,Emotional Intelligence,Leadership,False,2025-06-12,2025-07-11,Completed,100,77.0,3.5,9.5
+EMP070,Employee_454,Finance,India,CRS013,Digital Learning Design,Digital Learning,False,2025-03-21,,Overdue,0,,,0.3
+EMP239,Employee_455,Consulting,India,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-10-02,2025-10-25,Completed,100,73.0,3.9,5.2
+EMP062,Employee_456,Legal,Germany,CRS002,Power BI Essentials,Technical,False,2025-06-05,2025-07-28,Completed,100,98.0,3.1,8.5
+EMP168,Employee_457,tax,Germany,CRS003,Leadership 101,Leadership,False,2025-05-08,2025-05-31,Completed,100,85.0,4.0,7.1
+EMP134,Employee_458,Legal,India,CRS014,Data Storytelling,Digital Learning,False,2025-07-27,2025-09-20,Completed,100,88.0,4.1,6.0
+EMP049,Employee_459,Tax,US,CRS008,Effective Communication,Leadership,False,2025-03-04,2025-03-05,Completed,100,63.0,4.7,9.8
+EMP067,Employee_460,Consulting,UK,CRS004,Cyber Security Awareness,Compliance,True,2025-02-13,2025-03-23,Completed,100,97.0,3.5,8.3
+EMP012,Employee_461,Legal,Germany,CRS002,Power BI Essentials,Technical,False,2025-08-16,2025-10-07,Completed,100,68.0,3.2,8.6
+EMP170,Employee_462,Tax,Singapore,CRS002,Power BI Essentials,Technical,False,2025-01-26,,Completed,100,96.0,3.9,7.5
+EMP255,Employee_463,Consulting,Germany,CRS001,Data Privacy Fundamentals,Compliance,True,2025-08-07,,In Progress,25,,,2.1
+EMP096,Employee_464,Audit,Singapore,CRS005,Advanced Excel,Technical,False,2025-03-18,2025-03-21,Completed,100,99.0,4.2,3.2
+EMP152,Employee_465,Consulting,Australia,CRS008,Effective Communication,Leadership,False,2025-09-03,,Overdue,0,,,0.2
+EMP197,Employee_466,Consulting,US,CRS003,Leadership 101,Leadership,False,2025-09-27,2025-10-13,Completed,100,100.0,5.0,5.9
+EMP010,Employee_467,Advisory,UK,CRS007,Tableau for Analysts,Technical,False,2025-09-03,2025-10-08,Completed,100,91.0,3.7,6.1
+EMP165,Employee_468,Audit,US,CRS007,Tableau for Analysts,Technical,False,2025-01-14,,Not Started,0,,,0.0
+EMP164,Employee_469,Legal,India,CRS010,Code of Conduct,Compliance,True,2025-05-24,2025-05-28,Completed,100,90.0,4.1,7.9
+EMP120,Employee_470,Tax,US,CRS003,Leadership 101,Leadership,False,2025-05-04,,Overdue,25,,,1.1
+EMP029,Employee_471,Legal,Australia,CRS013,Digital Learning Design,Digital Learning,False,2025-07-18,2025-08-10,Completed,100,71.0,3.4,6.3
+EMP184,Employee_472,tax,India,CRS015,Time Management,Leadership,False,2025-06-30,,Overdue,50,,,1.1
+EMP289,Employee_473,Consulting,Australia,CRS004,Cyber Security Awareness,Compliance,True,2025-06-08,2025-06-20,Completed,100,91.0,3.1,1.5
+EMP113,Employee_474,tax,Singapore,CRS001,Data Privacy Fundamentals,Compliance,True,2025-01-01,,Not Started,0,,,0.0
+EMP170,Employee_475,Finance,US,CRS015,Time Management,Leadership,False,2025-03-08,2025-03-30,Completed,100,71.0,4.8,8.6
+EMP166,Employee_476,Tax,US,CRS001,Data Privacy Fundamentals,Compliance,True,2025-10-28,,Overdue,50,,,1.8
+EMP057,Employee_477,tax,UK,CRS014,Data Storytelling,Digital Learning,False,2025-02-07,2025-03-03,Completed,100,85.0,4.2,4.0
+EMP166,Employee_478,Legal,Germany,CRS003,Leadership 101,Leadership,False,2025-08-12,2025-10-02,Completed,100,100.0,4.9,6.8
+EMP090,Employee_479,Finance,USA,CRS012,Emotional Intelligence,Leadership,False,2025-07-02,,Overdue,0,,,1.3
+EMP090,Employee_480,Audit,Germany,CRS007,Tableau for Analysts,Technical,False,2025-05-31,,Completed,100,71.0,4.5,9.5
+EMP294,Employee_481,Finance,India,CRS007,Tableau for Analysts,Technical,False,2025-04-04,2025-05-13,Completed,100,80.0,4.8,9.7
+EMP114,Employee_482,Finance,India,CRS011,SQL Fundamentals,Technical,False,2025-09-12,,In Progress,25,,,2.0
+EMP040,Employee_483,Audit,UK,CRS004,Cyber Security Awareness,Compliance,True,2025-03-27,2025-05-07,Completed,100,65.0,4.6,7.0
+EMP172,Employee_484,Tax,UK,CRS008,Effective Communication,Leadership,False,2025-04-18,2025-05-04,Completed,100,64.0,3.7,8.1
+EMP001,Employee_485,Consulting,Singapore,CRS001,Data Privacy Fundamentals,Compliance,True,2025-08-03,2025-08-14,Completed,100,86.0,4.0,4.4
+EMP280,Employee_486,Tax,Singapore,CRS007,Tableau for Analysts,Technical,False,2025-10-23,,Overdue,50,,,1.5
+EMP116,Employee_487,Consulting,India,CRS003,Leadership 101,Leadership,False,2025-01-18,2025-02-06,Completed,100,61.0,3.6,9.6
+EMP038,Employee_488,Legal,Singapore,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-03-24,2025-05-10,Completed,100,64.0,4.1,9.1
+EMP048,Employee_489,Finance,Australia,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-09-05,,Overdue,50,,,0.1
+EMP085,Employee_490,Consulting,US,CRS010,Code of Conduct,Compliance,True,2025-01-28,,Not Started,0,,,0.0
+EMP052,Employee_491,Legal,US,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-07-29,2025-09-12,Completed,100,95.0,4.4,7.6
+EMP136,Employee_492,Audit,UK,CRS011,SQL Fundamentals,Technical,False,2025-05-02,2025-05-09,Completed,100,63.0,3.8,5.9
+EMP252,Employee_493,Tax,UK,CRS003,Leadership 101,Leadership,False,2025-01-02,2025-01-30,Completed,100,65.0,3.6,7.0
+EMP246,Employee_494,Tax,India,CRS004,Cyber Security Awareness,Compliance,True,2025-04-16,2025-04-27,Completed,100,100.0,3.6,1.7
+EMP060,Employee_495,Consulting,Singapore,CRS005,Advanced Excel,Technical,False,2025-09-08,2025-11-05,Completed,100,76.0,3.2,5.9
+EMP095,Employee_496,Consulting,UK,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-04-06,2025-05-05,Completed,100,62.0,3.5,5.2
+EMP116,Employee_497,Audit,Australia,CRS014,Data Storytelling,Digital Learning,False,2025-02-01,2025-02-11,Completed,100,66.0,3.2,4.1
+EMP278,Employee_498,Finance,US,CRS007,Tableau for Analysts,Technical,False,2025-10-11,2025-10-15,Completed,100,84.0,4.6,4.8
+EMP275,Employee_499,Consulting,Australia,CRS011,SQL Fundamentals,Technical,False,2025-05-01,,Overdue,25,,,0.6
+EMP203,Employee_500,Advisory,India,CRS015,Time Management,Leadership,False,15/03/2025,,Overdue,50,,,1.8
+EMP293,Employee_501,Finance,US,CRS011,SQL Fundamentals,Technical,False,15/03/2025,,In Progress,50,,,1.3
+EMP086,Employee_502,Legal,US,CRS004,Cyber Security Awareness,Compliance,True,2025-01-22,2025-02-19,Completed,100,65.0,5.0,4.9
+EMP076,Employee_503,Finance,UK,CRS014,Data Storytelling,Digital Learning,False,2025-06-13,2025-08-11,Completed,100,64.0,3.2,6.0
+EMP283,Employee_504,Audit,Australia,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-08-23,,Not Started,0,,,0.0
+EMP007,Employee_505,Advisory,Australia,CRS013,Digital Learning Design,Digital Learning,False,2025-10-28,,In Progress,75,,,4.0
+EMP058,Employee_506,Legal,US,CRS007,Tableau for Analysts,Technical,False,2025-10-18,2025-11-25,Completed,100,97.0,4.5,9.5
+EMP055,Employee_507,Tax,UK,CRS010,Code of Conduct,Compliance,True,2025-10-02,,Overdue,25,,,1.8
+EMP136,Employee_508,Advisory,Singapore,CRS007,Tableau for Analysts,Technical,False,2025-10-20,,Not Started,0,,,0.0
+EMP243,Employee_509,Legal,UK,CRS001,Data Privacy Fundamentals,Compliance,True,2025-07-26,,Overdue,0,,,1.2
+EMP206,Employee_510,Consulting,UK,CRS001,Data Privacy Fundamentals,Compliance,True,2025-05-02,,In Progress,25,,,3.9
+EMP138,Employee_511,Audit,India,CRS015,Time Management,Leadership,False,2025-06-22,2025-08-14,Completed,100,79.0,3.6,8.6
+EMP051,Employee_512,Legal,US,CRS014,Data Storytelling,Digital Learning,False,2025-06-03,2025-07-21,Completed,100,88.0,4.5,3.9
+EMP214,Employee_513,Advisory,India,CRS010,Code of Conduct,Compliance,True,2025-04-07,,Overdue,25,,,0.4
+EMP209,Employee_514,Consulting,Australia,CRS012,Emotional Intelligence,Leadership,False,2025-07-11,,Not Started,0,,,0.0
+EMP029,Employee_515,Legal,India,CRS009,AI & Ethics,Digital Learning,False,2025-06-09,2025-07-25,Completed,100,92.0,3.8,8.0
+EMP269,Employee_516,Finance,India,CRS015,Time Management,Leadership,False,2025-03-30,2025-04-12,Completed,100,72.0,4.7,3.2
+EMP234,Employee_517,Audit,Germany,CRS001,Data Privacy Fundamentals,Compliance,True,2025-04-12,2025-04-30,Completed,100,83.0,4.6,5.5
+EMP064,Employee_518,Tax,US,CRS011,SQL Fundamentals,Technical,False,2025-07-10,,Not Started,0,,,0.0
+EMP251,Employee_519,Consulting,US,CRS010,Code of Conduct,Compliance,True,2025-08-31,,Overdue,50,,,1.1
+EMP177,Employee_520,Audit,Germany,CRS003,Leadership 101,Leadership,False,2025-02-16,2025-03-07,Completed,100,61.0,3.8,2.5
+EMP293,Employee_521,Legal,US,CRS013,Digital Learning Design,Digital Learning,False,2025-04-26,2025-06-09,Completed,100,73.0,3.5,4.7
+EMP011,Employee_522,Advisory,India,CRS014,Data Storytelling,Digital Learning,False,2025-08-31,2025-10-29,Completed,100,68.0,4.3,6.4
+EMP005,Employee_523,Audit,india,CRS004,Cyber Security Awareness,Compliance,True,2025-06-06,,Overdue,50,,,1.9
+EMP141,Employee_524,Consulting,UK,CRS007,Tableau for Analysts,Technical,False,2025-08-24,,Not Started,0,,,0.0
+EMP130,Employee_525,Consulting,UK,CRS004,Cyber Security Awareness,Compliance,True,2025-09-24,,Not Started,0,,,0.0
+EMP204,Employee_526,Tax,India,CRS010,Code of Conduct,Compliance,True,2025-09-19,2025-11-01,Completed,100,83.0,4.1,6.3
+EMP145,Employee_527,Advisory,India,CRS005,Advanced Excel,Technical,False,2025-09-04,2025-09-09,Completed,100,81.0,5.0,6.8
+EMP142,Employee_528,Advisory,Germany,CRS005,Advanced Excel,Technical,False,2025-06-02,2025-06-15,Completed,100,69.0,4.0,3.2
+EMP030,Employee_529,Finance,Singapore,CRS013,Digital Learning Design,Digital Learning,False,2025-06-13,2025-07-27,Completed,100,68.0,4.4,6.9
+EMP152,Employee_530,Consulting,Singapore,CRS005,Advanced Excel,Technical,False,2025-07-18,,Not Started,0,,,0.0
+EMP019,Employee_531,Advisory,Australia,CRS010,Code of Conduct,Compliance,True,2025-04-08,,Not Started,0,,,0.0
+EMP176,Employee_532,Advisory,US,CRS012,Emotional Intelligence,Leadership,False,2025-10-01,,Overdue,50,,,1.6
+EMP184,Employee_533,Audit,US,CRS009,AI & Ethics,Digital Learning,False,2025-10-13,,Overdue,0,,,0.6
+EMP242,Employee_534,Advisory,UK,CRS003,Leadership 101,Leadership,False,2025-10-14,2025-12-02,Completed,100,71.0,4.9,9.1
+EMP046,Employee_535,Audit,US,CRS004,Cyber Security Awareness,Compliance,True,2025-06-07,,In Progress,50,,,4.0
+EMP170,Employee_536,Audit,Australia,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-05-31,,Overdue,25,,,1.7
+EMP241,Employee_537,Advisory,Australia,CRS001,Data Privacy Fundamentals,Compliance,True,2025-10-25,,Not Started,0,,,0.0
+EMP037,Employee_538,Legal,Australia,CRS008,Effective Communication,Leadership,False,2025-03-03,2025-04-28,Completed,100,84.0,4.1,4.7
+EMP078,Employee_539,Legal,UK,CRS003,Leadership 101,Leadership,False,2025-07-29,2025-09-04,Completed,100,89.0,3.3,8.8
+EMP093,Employee_540,Tax,Singapore,CRS013,Digital Learning Design,Digital Learning,False,2025-06-20,2025-07-31,Completed,100,71.0,3.6,1.5
+EMP232,Employee_541,Legal,US,CRS005,Advanced Excel,Technical,False,2025-10-23,,Overdue,0,,,1.0
+EMP046,Employee_542,Finance,Singapore,CRS003,Leadership 101,Leadership,False,2025-08-08,,Completed,100,87.0,4.9,4.4
+EMP020,Employee_543,Legal,Germany,CRS009,AI & Ethics,Digital Learning,False,2025-07-11,2025-07-12,Completed,100,80.0,4.5,5.8
+EMP010,Employee_544,Tax,Germany,CRS011,SQL Fundamentals,Technical,False,2025-05-08,,In Progress,25,,,3.6
+EMP177,Employee_545,Legal,India,CRS005,Advanced Excel,Technical,False,2025-07-16,2025-08-18,Completed,100,97.0,3.6,1.6
+EMP024,Employee_546,Audit,Singapore,CRS005,Advanced Excel,Technical,False,2025-09-24,,Completed,100,93.0,3.7,9.0
+EMP069,Employee_547,Consulting,UK,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-04-07,2025-04-18,Completed,100,85.0,3.0,3.0
+EMP068,Employee_548,Advisory,India,CRS004,Cyber Security Awareness,Compliance,True,2025-09-16,,In Progress,25,,,1.1
+EMP020,Employee_549,Advisory,UK,CRS007,Tableau for Analysts,Technical,False,2025-10-01,2025-11-10,Completed,100,63.0,4.2,1.4
+EMP056,Employee_550,tax,India,CRS011,SQL Fundamentals,Technical,False,2025-03-01,,In Progress,50,,,2.5
+EMP064,Employee_551,Audit,Singapore,CRS009,AI & Ethics,Digital Learning,False,2025-03-20,2025-04-03,Completed,100,100.0,3.0,4.8
+EMP052,Employee_552,Finance,UK,CRS011,SQL Fundamentals,Technical,False,2025-03-12,,Not Started,0,,,0.0
+EMP215,Employee_553,Tax,Australia,CRS014,Data Storytelling,Digital Learning,False,2025-03-02,2025-03-21,Completed,100,67.0,4.6,5.5
+EMP103,Employee_554,Audit,Australia,CRS013,Digital Learning Design,Digital Learning,False,2025-04-14,2025-05-07,Completed,100,86.0,3.6,1.4
+EMP255,Employee_555,Legal,Germany,CRS015,Time Management,Leadership,False,2025-09-04,,Not Started,0,,,0.0
+EMP170,Employee_556,LEGAL,India,CRS004,Cyber Security Awareness,Compliance,True,2025-02-15,2025-04-15,Completed,100,67.0,4.7,7.0
+EMP077,Employee_557,Finance,India,CRS002,Power BI Essentials,Technical,False,2025-02-21,2025-04-20,Completed,100,76.0,4.3,5.1
+EMP152,Employee_558,Consulting,India,CRS005,Advanced Excel,Technical,False,2025-02-21,2025-04-15,Completed,100,71.0,4.7,8.7
+EMP185,Employee_559,Advisory,UK,CRS013,Digital Learning Design,Digital Learning,False,2025-08-07,,In Progress,75,,,1.0
+EMP024,Employee_560,Legal,Germany,CRS001,Data Privacy Fundamentals,Compliance,True,15/03/2025,2025-04-20,Completed,100,82.0,4.8,9.6
+EMP138,Employee_561,Advisory,India,CRS015,Time Management,Leadership,False,2025-07-10,,In Progress,50,,,1.3
+EMP206,Employee_562,Consulting,UK,CRS007,Tableau for Analysts,Technical,False,2025-07-17,2025-08-31,Completed,100,90.0,4.6,6.8
+EMP086,Employee_563,Legal,Germany,CRS002,Power BI Essentials,Technical,False,2025-01-31,,Completed,100,70.0,3.2,9.2
+EMP248,Employee_564,Finance,india,CRS013,Digital Learning Design,Digital Learning,False,2025-08-13,2025-08-25,Completed,100,99.0,3.8,4.2
+EMP015,Employee_565,Advisory,Germany,CRS014,Data Storytelling,Digital Learning,False,2025-03-08,2025-04-08,Completed,100,91.0,3.2,4.7
+EMP024,Employee_566,Audit,Germany,CRS002,Power BI Essentials,Technical,False,2025-06-10,2025-06-11,Completed,100,93.0,4.5,6.2
+EMP290,Employee_567,Advisory,UK,CRS004,Cyber Security Awareness,Compliance,True,2025-09-23,2025-10-27,Completed,100,99.0,3.2,7.0
+EMP128,Employee_568,Audit,Germany,CRS008,Effective Communication,Leadership,False,2025-07-17,2025-07-27,Completed,100,95.0,4.8,6.5
+EMP006,Employee_569,Legal,Australia,CRS011,SQL Fundamentals,Technical,False,2025-08-29,,Overdue,25,,,1.7
+EMP039,Employee_570,Consulting,UK,CRS013,Digital Learning Design,Digital Learning,False,2025-05-04,2025-05-26,Completed,100,77.0,3.1,3.0
+EMP194,Employee_571,Legal,India,CRS007,Tableau for Analysts,Technical,False,2025-08-24,2025-09-22,Completed,100,96.0,3.9,8.7
+EMP229,Employee_572,Tax,Singapore,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-01-10,,In Progress,25,,,2.3
+EMP019,Employee_573,Finance,India,CRS009,AI & Ethics,Digital Learning,False,2025-02-16,2025-04-08,Completed,100,98.0,4.9,6.7
+EMP261,Employee_574,Legal,Germany,CRS009,AI & Ethics,Digital Learning,False,2025-08-22,2025-09-13,Completed,100,83.0,4.7,8.3
+EMP233,Employee_575,Finance,Australia,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-08-31,,Not Started,0,,,0.0
+EMP187,Employee_576,Consulting,USA,CRS012,Emotional Intelligence,Leadership,False,2025-02-19,,Overdue,50,,,0.4
+EMP175,Employee_577,Advisory,UK,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-10-08,2025-11-11,Completed,100,83.0,4.4,1.4
+EMP085,Employee_578,Legal,Germany,CRS008,Effective Communication,Leadership,False,2025-07-29,,Overdue,0,,,0.5
+EMP101,Employee_579,Tax,Singapore,CRS004,Cyber Security Awareness,Compliance,True,2025-04-21,2025-05-21,Completed,100,72.0,4.4,2.0
+EMP213,Employee_580,Advisory,Germany,CRS001,Data Privacy Fundamentals,Compliance,True,2025-03-05,2025-04-24,Completed,100,88.0,3.9,6.3
+EMP259,Employee_581,Consulting,India,CRS003,Leadership 101,Leadership,False,2025-09-29,2025-11-16,Completed,100,63.0,4.1,4.9
+EMP300,Employee_582,tax,US,CRS008,Effective Communication,Leadership,False,2025-10-24,,Overdue,0,,,1.5
+EMP066,Employee_583,Consulting,Germany,CRS002,Power BI Essentials,Technical,False,2025-06-14,2025-07-17,Completed,100,84.0,3.8,6.5
+EMP128,Employee_584,Consulting,UK,CRS005,Advanced Excel,Technical,False,2025-05-31,2025-06-29,Completed,100,68.0,3.3,6.4
+EMP263,Employee_585,Advisory,Australia,CRS005,Advanced Excel,Technical,False,2025-06-10,2025-07-26,Completed,100,95.0,4.3,2.8
+EMP149,Employee_586,Audit,Germany,CRS011,SQL Fundamentals,Technical,False,2025-03-09,2025-04-24,Completed,100,71.0,4.0,7.2
+EMP166,Employee_587,Tax,UK,CRS012,Emotional Intelligence,Leadership,False,2025-10-15,2025-11-15,Completed,100,97.0,4.1,7.0
+EMP214,Employee_588,Advisory,Australia,CRS011,SQL Fundamentals,Technical,False,2025-05-27,2025-07-23,Completed,100,87.0,4.6,5.7
+EMP013,Employee_589,Legal,India,CRS007,Tableau for Analysts,Technical,False,2025-01-29,2025-02-11,Completed,100,77.0,4.5,2.4
+EMP147,Employee_590,Audit,US,CRS011,SQL Fundamentals,Technical,False,2025-02-01,2025-03-18,Completed,100,78.0,3.4,5.9
+EMP184,Employee_591,Consulting,India,CRS014,Data Storytelling,Digital Learning,False,2025-10-15,2025-12-10,Completed,100,74.0,4.5,6.1
+EMP122,Employee_592,Advisory,UK,CRS009,AI & Ethics,Digital Learning,False,2025-01-25,2025-03-26,Completed,100,84.0,3.8,9.6
+EMP161,Employee_593,Tax,India,CRS009,AI & Ethics,Digital Learning,False,2025-05-09,2025-05-22,Completed,100,99.0,4.7,8.7
+EMP227,Employee_594,Legal,Germany,CRS014,Data Storytelling,Digital Learning,False,2025-07-08,2025-08-26,Completed,100,97.0,4.1,6.4
+EMP100,Employee_595,Consulting,US,CRS005,Advanced Excel,Technical,False,2025-02-08,,Not Started,0,,,0.0
+EMP096,Employee_596,Advisory,Australia,CRS003,Leadership 101,Leadership,False,2025-03-03,2025-03-28,Completed,100,62.0,3.9,6.0
+EMP067,Employee_597,Finance,UK,CRS003,Leadership 101,Leadership,False,2025-01-03,,In Progress,50,,,2.6
+EMP080,Employee_598,Legal,UK,CRS001,Data Privacy Fundamentals,Compliance,True,2025-01-27,2025-03-18,Completed,100,100.0,4.2,7.0
+EMP252,Employee_599,Finance,Australia,CRS013,Digital Learning Design,Digital Learning,False,2025-07-03,2025-07-08,Completed,100,80.0,4.1,9.6
+EMP267,Employee_600,Finance,US,CRS002,Power BI Essentials,Technical,False,2025-08-01,2025-09-05,Completed,100,94.0,3.8,4.1
+EMP110,Employee_601,Audit,UK,CRS011,SQL Fundamentals,Technical,False,2025-07-04,2025-07-23,Completed,100,73.0,4.9,6.6
+EMP244,Employee_602,Advisory,India,CRS009,AI & Ethics,Digital Learning,False,2025-02-28,2025-04-12,Completed,100,82.0,3.9,9.1
+EMP125,Employee_603,Advisory,UK,CRS001,Data Privacy Fundamentals,Compliance,True,2025-07-15,2025-09-12,Completed,100,67.0,3.8,5.9
+EMP145,Employee_604,Finance,UK,CRS001,Data Privacy Fundamentals,Compliance,True,2025-09-21,2025-11-12,Completed,100,92.0,3.9,1.4
+EMP099,Employee_605,Finance,India,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-02-19,2025-03-02,Completed,100,94.0,4.1,6.6
+EMP108,Employee_606,Advisory,US,CRS011,SQL Fundamentals,Technical,False,2025-08-06,2025-09-29,Completed,100,66.0,3.4,8.5
+EMP223,Employee_607,Tax,Germany,CRS011,SQL Fundamentals,Technical,False,2025-03-20,2025-03-22,Completed,100,89.0,4.4,1.3
+EMP038,Employee_608,Legal,UK,CRS001,Data Privacy Fundamentals,Compliance,True,2025-10-13,2025-10-18,Completed,100,96.0,4.6,9.2
+EMP209,Employee_609,Consulting,Germany,CRS007,Tableau for Analysts,Technical,False,2025-07-27,2025-08-24,Completed,100,80.0,3.0,7.1
+EMP274,Employee_610,Advisory,Germany,CRS001,Data Privacy Fundamentals,Compliance,True,2025-02-02,,In Progress,75,,,3.1
+EMP038,Employee_611,Finance,India,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-05-29,2025-07-19,Completed,100,79.0,4.2,3.5
+EMP225,Employee_612,Consulting,Germany,CRS007,Tableau for Analysts,Technical,False,2025-01-16,,In Progress,50,,,1.2
+EMP113,Employee_613,tax,Singapore,CRS003,Leadership 101,Leadership,False,2025-10-07,2025-10-26,Completed,100,100.0,3.3,7.1
+EMP192,Employee_614,Finance,Australia,CRS001,Data Privacy Fundamentals,Compliance,True,2025-03-14,2025-03-22,Completed,100,62.0,3.0,6.4
+EMP276,Employee_615,Tax,USA,CRS009,AI & Ethics,Digital Learning,False,2025-04-18,,Not Started,0,,,0.0
+EMP177,Employee_616,Consulting,Germany,CRS004,Cyber Security Awareness,Compliance,True,2025-09-20,,Overdue,0,,,0.3
+EMP114,Employee_617,Audit,US,CRS010,Code of Conduct,Compliance,True,2025-02-28,2025-03-12,Completed,100,96.0,4.7,8.7
+EMP282,Employee_618,Advisory,Australia,CRS008,Effective Communication,Leadership,False,2025-02-07,2025-02-26,Completed,100,64.0,3.5,2.8
+EMP298,Employee_619,Audit,UK,CRS008,Effective Communication,Leadership,False,2025-03-07,,Not Started,0,,,0.0
+EMP121,Employee_620,Audit,Australia,CRS002,Power BI Essentials,Technical,False,2025-02-05,,In Progress,25,,,1.9
+EMP231,Employee_621,Finance,Germany,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-06-06,2025-07-21,Completed,100,97.0,3.3,6.1
+EMP162,Employee_622,tax,India,CRS007,Tableau for Analysts,Technical,False,2025-06-10,2025-06-26,Completed,100,74.0,4.4,6.8
+EMP142,Employee_623,Audit,US,CRS014,Data Storytelling,Digital Learning,False,2025-06-19,2025-08-15,Completed,100,90.0,3.9,4.2
+EMP157,Employee_624,Finance,India,CRS008,Effective Communication,Leadership,False,2025-03-31,2025-05-12,Completed,100,98.0,3.2,3.5
+EMP072,Employee_625,Finance,US,CRS015,Time Management,Leadership,False,2025-05-15,2025-07-01,Completed,100,100.0,3.2,1.7
+EMP010,Employee_626,Finance,Germany,CRS014,Data Storytelling,Digital Learning,False,15/03/2025,2025-03-10,Completed,100,97.0,4.2,7.9
+EMP109,Employee_627,Tax,Australia,CRS015,Time Management,Leadership,False,2025-05-14,2025-06-18,Completed,100,94.0,6.5,8.0
+EMP188,Employee_628,Legal,Australia,CRS007,Tableau for Analysts,Technical,False,2025-05-29,,In Progress,25,,,2.6
+EMP262,Employee_629,Consulting,UK,CRS002,Power BI Essentials,Technical,False,2025-09-15,2025-09-16,Completed,100,75.0,4.7,8.3
+EMP085,Employee_630,Finance,US,CRS013,Digital Learning Design,Digital Learning,False,2025-08-17,2025-08-28,Completed,100,71.0,4.1,6.1
+EMP075,Employee_631,Advisory,Singapore,CRS012,Emotional Intelligence,Leadership,False,2025-07-03,,In Progress,25,,,1.5
+EMP250,Employee_632,Tax,UK,CRS004,Cyber Security Awareness,Compliance,True,2025-07-09,,Not Started,0,,,0.0
+EMP120,Employee_633,Advisory,US,CRS001,Data Privacy Fundamentals,Compliance,True,2025-09-23,2025-11-21,Completed,100,83.0,3.8,9.3
+EMP024,Employee_634,Advisory,UK,CRS001,Data Privacy Fundamentals,Compliance,True,2025-02-22,2025-04-09,Completed,100,93.0,4.3,3.5
+EMP135,Employee_635,Finance,india,CRS010,Code of Conduct,Compliance,True,2025-03-31,2025-04-25,Completed,100,84.0,3.7,6.9
+EMP040,Employee_636,Audit,Singapore,CRS009,AI & Ethics,Digital Learning,False,2025-04-25,2025-05-29,Completed,100,85.0,3.7,8.8
+EMP250,Employee_637,Consulting,Australia,CRS013,Digital Learning Design,Digital Learning,False,2025-01-04,2025-02-06,Completed,100,68.0,3.9,3.1
+EMP264,Employee_638,Audit,US,CRS011,SQL Fundamentals,Technical,False,2025-03-18,2025-03-30,Completed,100,70.0,3.7,7.5
+EMP061,Employee_639,Legal,Singapore,CRS011,SQL Fundamentals,Technical,False,2025-06-19,2025-08-05,Completed,100,67.0,4.0,5.3
+EMP108,Employee_640,Legal,Germany,CRS010,Code of Conduct,Compliance,True,2025-07-30,2025-08-01,Completed,100,75.0,3.1,6.2
+EMP083,Employee_641,Advisory,Australia,CRS003,Leadership 101,Leadership,False,2025-01-21,2025-03-20,Completed,100,96.0,3.3,2.5
+EMP093,Employee_642,Consulting,Australia,CRS009,AI & Ethics,Digital Learning,False,2025-10-16,2025-11-26,Completed,100,61.0,4.8,7.6
+EMP146,Employee_643,Legal,Singapore,CRS002,Power BI Essentials,Technical,False,2025-08-30,2025-10-25,Completed,100,90.0,3.3,8.5
+EMP074,Employee_644,Finance,US,CRS013,Digital Learning Design,Digital Learning,False,2025-09-19,2025-10-06,Completed,100,70.0,4.4,4.1
+EMP233,Employee_645,Finance,India,CRS010,Code of Conduct,Compliance,True,2025-04-28,2025-05-23,Completed,100,84.0,3.3,1.1
+EMP268,Employee_646,LEGAL,Germany,CRS014,Data Storytelling,Digital Learning,False,2025-08-03,,Not Started,0,,,0.0
+EMP077,Employee_647,Tax,US,CRS010,Code of Conduct,Compliance,True,2025-09-01,2025-10-29,Completed,100,99.0,4.2,8.9
+EMP273,Employee_648,Tax,India,CRS009,AI & Ethics,Digital Learning,False,2025-09-04,,In Progress,75,,,1.1
+EMP277,Employee_649,Tax,Germany,CRS014,Data Storytelling,Digital Learning,False,2025-08-09,,In Progress,75,,,2.4
+EMP023,Employee_650,Finance,Singapore,CRS012,Emotional Intelligence,Leadership,False,2025-04-28,2025-06-19,Completed,100,90.0,4.6,4.4
+EMP295,Employee_651,Consulting,US,CRS002,Power BI Essentials,Technical,False,2025-05-11,2025-06-11,Completed,100,74.0,4.8,1.8
+EMP279,Employee_652,Audit,US,CRS007,Tableau for Analysts,Technical,False,2025-01-03,2025-02-18,Completed,100,60.0,4.2,2.1
+EMP004,Employee_653,tax,US,CRS007,Tableau for Analysts,Technical,False,2025-06-11,2025-07-08,Completed,100,83.0,3.2,4.8
+EMP300,Employee_654,Audit,Australia,CRS005,Advanced Excel,Technical,False,2025-08-05,,In Progress,75,,,2.1
+EMP142,Employee_655,Consulting,US,CRS011,SQL Fundamentals,Technical,False,2025-07-31,,Completed,100,95.0,4.0,4.3
+EMP285,Employee_656,Audit,UK,CRS008,Effective Communication,Leadership,False,2025-10-23,,Completed,100,85.0,4.5,8.7
+EMP061,Employee_657,Legal,Singapore,CRS012,Emotional Intelligence,Leadership,False,2025-03-24,2025-03-31,Completed,100,73.0,4.0,8.1
+EMP282,Employee_658,Advisory,Germany,CRS010,Code of Conduct,Compliance,True,2025-01-27,2025-02-07,Completed,100,84.0,4.9,1.0
+EMP047,Employee_659,Legal,Singapore,CRS014,Data Storytelling,Digital Learning,False,2025-08-11,2025-08-17,Completed,100,64.0,3.5,4.3
+EMP020,Employee_660,Consulting,Singapore,CRS012,Emotional Intelligence,Leadership,False,2025-09-24,2025-10-13,Completed,100,98.0,3.1,8.0
+EMP090,Employee_661,Consulting,Singapore,CRS011,SQL Fundamentals,Technical,False,2025-01-06,2025-01-19,Completed,100,93.0,3.6,1.3
+EMP262,Employee_662,Advisory,US,CRS009,AI & Ethics,Digital Learning,False,2025-03-28,,Overdue,50,,,0.1
+EMP123,Employee_663,Tax,USA,CRS011,SQL Fundamentals,Technical,False,2025-02-14,2025-03-04,Completed,100,85.0,3.7,4.6
+EMP103,Employee_664,Tax,Germany,CRS009,AI & Ethics,Digital Learning,False,2025-02-05,2025-04-05,Completed,100,65.0,4.1,7.5
+EMP287,Employee_665,Finance,UK,CRS015,Time Management,Leadership,False,2025-06-27,2025-08-19,Completed,100,77.0,3.5,9.7
+EMP233,Employee_666,Consulting,Australia,CRS015,Time Management,Leadership,False,2025-01-03,2025-01-20,Completed,100,71.0,3.8,2.0
+EMP038,Employee_667,Audit,UK,CRS009,AI & Ethics,Digital Learning,False,2025-03-01,2025-04-22,Completed,100,92.0,4.9,8.9
+EMP295,Employee_668,Advisory,Singapore,CRS005,Advanced Excel,Technical,False,2025-07-13,2025-08-19,Completed,100,90.0,4.5,7.8
+EMP235,Employee_669,Consulting,Australia,CRS011,SQL Fundamentals,Technical,False,2025-01-15,2025-02-15,Completed,100,67.0,3.5,4.4
+EMP113,Employee_670,Advisory,US,CRS011,SQL Fundamentals,Technical,False,2025-06-11,2025-07-08,Completed,100,82.0,4.0,1.1
+EMP135,Employee_671,Audit,India,CRS004,Cyber Security Awareness,Compliance,True,2025-07-24,2025-09-06,Completed,100,81.0,3.2,9.4
+EMP244,Employee_672,Audit,US,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-10-21,,Not Started,0,,,0.0
+EMP138,Employee_673,Advisory,Germany,CRS003,Leadership 101,Leadership,False,2025-04-08,2025-05-10,Completed,100,72.0,3.5,3.2
+EMP136,Employee_674,Legal,US,CRS004,Cyber Security Awareness,Compliance,True,2025-05-08,2025-07-01,Completed,100,99.0,3.7,8.0
+EMP062,Employee_675,Tax,Germany,CRS015,Time Management,Leadership,False,2025-09-10,2025-10-20,Completed,100,60.0,4.5,5.9
+EMP022,Employee_676,Consulting,UK,CRS014,Data Storytelling,Digital Learning,False,2025-06-11,,Overdue,25,,,1.8
+EMP295,Employee_677,Audit,Singapore,CRS014,Data Storytelling,Digital Learning,False,2025-04-04,2025-05-23,Completed,100,92.0,3.6,3.0
+EMP296,Employee_678,Tax,Australia,CRS003,Leadership 101,Leadership,False,2025-08-05,2025-09-05,Completed,100,94.0,3.1,4.1
+EMP090,Employee_679,Tax,india,CRS008,Effective Communication,Leadership,False,2025-09-23,,Overdue,25,,,0.6
+EMP005,Employee_680,Advisory,US,CRS001,Data Privacy Fundamentals,Compliance,True,2025-07-14,,Not Started,0,,,0.0
+EMP298,Employee_681,Audit,UK,CRS002,Power BI Essentials,Technical,False,2025-05-13,,Not Started,0,,,0.0
+EMP096,Employee_682,Audit,US,CRS009,AI & Ethics,Digital Learning,False,2025-05-18,2025-06-18,Completed,100,99.0,3.7,2.7
+EMP218,Employee_683,Consulting,Germany,CRS004,Cyber Security Awareness,Compliance,True,2025-07-10,2025-08-03,Completed,100,85.0,3.6,2.6
+EMP068,Employee_684,Advisory,US,CRS010,Code of Conduct,Compliance,True,2025-02-21,,In Progress,75,,,1.7
+EMP121,Employee_685,Consulting,Singapore,CRS009,AI & Ethics,Digital Learning,False,2025-04-11,,Overdue,0,,,1.6
+EMP077,Employee_686,Tax,US,CRS008,Effective Communication,Leadership,False,2025-08-04,,Completed,100,68.0,5.0,8.6
+EMP265,Employee_687,Advisory,UK,CRS009,AI & Ethics,Digital Learning,False,2025-09-07,2025-09-27,Completed,100,76.0,4.1,6.1
+EMP204,Employee_688,Advisory,US,CRS002,Power BI Essentials,Technical,False,2025-01-31,2025-02-14,Completed,100,76.0,4.0,6.7
+EMP231,Employee_689,Audit,UK,CRS012,Emotional Intelligence,Leadership,False,2025-07-04,,In Progress,50,,,3.0
+EMP132,Employee_690,Tax,Singapore,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-03-04,2025-03-27,Completed,100,98.0,3.4,6.2
+EMP276,Employee_691,Audit,UK,CRS003,Leadership 101,Leadership,False,2025-06-16,2025-07-30,Completed,100,92.0,4.0,7.6
+EMP041,Employee_692,Finance,UK,CRS007,Tableau for Analysts,Technical,False,2025-08-26,2025-10-06,Completed,100,69.0,4.7,6.8
+EMP173,Employee_693,Advisory,Australia,CRS007,Tableau for Analysts,Technical,False,2025-10-20,2025-11-15,Completed,100,64.0,3.2,4.1
+EMP161,Employee_694,Advisory,UK,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-05-17,2025-06-25,Completed,100,85.0,3.5,5.0
+EMP186,Employee_695,Finance,Australia,CRS012,Emotional Intelligence,Leadership,False,2025-08-19,2025-09-15,Completed,100,70.0,3.4,1.2
+EMP121,Employee_696,Audit,Germany,CRS011,SQL Fundamentals,Technical,False,2025-02-10,2025-02-24,Completed,100,70.0,3.8,1.9
+EMP243,Employee_697,Tax,India,CRS009,AI & Ethics,Digital Learning,False,2025-07-23,2025-08-26,Completed,100,65.0,3.2,6.6
+EMP044,Employee_698,Consulting,UK,CRS011,SQL Fundamentals,Technical,False,2025-04-28,2025-05-14,Completed,100,78.0,3.9,2.1
+EMP270,Employee_699,Legal,India,CRS014,Data Storytelling,Digital Learning,False,2025-01-18,2025-03-02,Completed,100,82.0,4.7,3.9
+EMP244,Employee_700,Finance,UK,CRS008,Effective Communication,Leadership,False,2025-10-08,2025-11-06,Completed,100,68.0,4.9,7.3
+EMP091,Employee_701,Finance,Singapore,CRS010,Code of Conduct,Compliance,True,2025-10-16,2025-11-13,Completed,100,93.0,4.3,5.8
+EMP178,Employee_702,Finance,india,CRS008,Effective Communication,Leadership,False,2025-02-15,2025-03-16,Completed,100,79.0,3.7,3.3
+EMP156,Employee_703,Tax,Australia,CRS001,Data Privacy Fundamentals,Compliance,True,2025-03-11,,Completed,100,78.0,3.9,1.1
+EMP252,Employee_704,Consulting,UK,CRS013,Digital Learning Design,Digital Learning,False,2025-01-05,2025-02-24,Completed,100,87.0,4.6,6.4
+EMP004,Employee_705,Audit,US,CRS009,AI & Ethics,Digital Learning,False,2025-07-30,2025-09-25,Completed,100,95.0,3.9,3.2
+EMP200,Employee_706,Consulting,US,CRS014,Data Storytelling,Digital Learning,False,15/03/2025,,Overdue,0,,,0.8
+EMP123,Employee_707,Finance,Germany,CRS009,AI & Ethics,Digital Learning,False,2025-05-20,2025-06-08,Completed,100,94.0,4.6,4.7
+EMP036,Employee_708,Legal,UK,CRS003,Leadership 101,Leadership,False,2025-02-26,,Not Started,0,,,0.0
+EMP234,Employee_709,Consulting,UK,CRS010,Code of Conduct,Compliance,True,2025-09-09,2025-09-22,Completed,100,80.0,3.0,1.4
+EMP274,Employee_710,Legal,India,CRS001,Data Privacy Fundamentals,Compliance,True,2025-05-25,,In Progress,50,105.0,,1.1
+EMP225,Employee_711,Tax,US,CRS012,Emotional Intelligence,Leadership,False,2025-02-16,,In Progress,25,,,0.6
+EMP112,Employee_712,Consulting,UK,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-09-13,2025-10-07,Completed,100,89.0,4.4,1.3
+EMP042,Employee_713,Legal,India,CRS014,Data Storytelling,Digital Learning,False,2025-05-17,2025-07-06,Completed,100,85.0,3.1,5.2
+EMP099,Employee_714,Audit,Singapore,CRS015,Time Management,Leadership,False,2025-01-07,2025-01-15,Completed,100,75.0,3.8,9.8
+EMP127,Employee_715,Tax,US,CRS012,Emotional Intelligence,Leadership,False,2025-08-24,2025-10-11,Completed,100,66.0,4.0,9.8
+EMP243,Employee_716,Advisory,UK,CRS007,Tableau for Analysts,Technical,False,2025-06-15,,Overdue,0,,,1.3
+EMP022,Employee_717,Finance,Australia,CRS012,Emotional Intelligence,Leadership,False,2025-03-04,,Not Started,0,105.0,,0.0
+EMP130,Employee_718,Advisory,UK,CRS008,Effective Communication,Leadership,False,2025-04-12,,Overdue,25,,,1.8
+EMP112,Employee_719,Legal,Germany,CRS002,Power BI Essentials,Technical,False,2025-08-11,2025-09-01,Completed,100,60.0,3.3,3.5
+EMP062,Employee_720,Legal,India,CRS007,Tableau for Analysts,Technical,False,2025-01-22,,In Progress,75,,,4.0
+EMP244,Employee_721,Finance,US,CRS012,Emotional Intelligence,Leadership,False,2025-07-10,,Overdue,0,,,0.5
+EMP256,Employee_722,Advisory,Australia,CRS002,Power BI Essentials,Technical,False,2025-06-23,2025-08-22,Completed,100,100.0,3.1,4.2
+EMP079,Employee_723,Finance,India,CRS012,Emotional Intelligence,Leadership,False,2025-03-06,2025-04-07,Completed,100,74.0,3.6,6.0
+EMP178,Employee_724,Consulting,Germany,CRS013,Digital Learning Design,Digital Learning,False,2025-04-09,,In Progress,25,,,3.6
+EMP184,Employee_725,Legal,UK,CRS012,Emotional Intelligence,Leadership,False,2025-01-21,2025-02-22,Completed,100,88.0,4.1,5.9
+EMP251,Employee_726,Finance,US,CRS004,Cyber Security Awareness,Compliance,True,2025-10-06,,Not Started,0,,,0.0
+EMP179,Employee_727,Advisory,Singapore,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-05-21,2025-07-16,Completed,100,98.0,4.8,6.0
+EMP036,Employee_728,Legal,Singapore,CRS009,AI & Ethics,Digital Learning,False,2025-06-01,,In Progress,50,,,2.9
+EMP233,Employee_729,Advisory,Australia,CRS001,Data Privacy Fundamentals,Compliance,True,2025-07-14,2025-08-30,Completed,100,71.0,4.8,6.6
+EMP187,Employee_730,Finance,US,CRS013,Digital Learning Design,Digital Learning,False,2025-06-14,2025-07-31,Completed,100,64.0,4.3,5.9
+EMP199,Employee_731,Finance,Germany,CRS004,Cyber Security Awareness,Compliance,True,2025-09-12,2025-11-01,Completed,100,95.0,3.3,3.5
+EMP210,Employee_732,Audit,India,CRS011,SQL Fundamentals,Technical,False,2025-02-19,,Not Started,0,,,0.0
+EMP268,Employee_733,Tax,India,CRS011,SQL Fundamentals,Technical,False,2025-03-08,,In Progress,25,,,4.4
+EMP104,Employee_734,Consulting,US,CRS002,Power BI Essentials,Technical,False,2025-02-20,2025-02-23,Completed,100,96.0,4.3,4.5
+EMP251,Employee_735,Finance,Germany,CRS009,AI & Ethics,Digital Learning,False,2025-05-12,2025-05-16,Completed,100,83.0,3.4,7.5
+EMP007,Employee_736,Legal,Germany,CRS015,Time Management,Leadership,False,2025-09-09,,Not Started,0,,,0.0
+EMP041,Employee_737,LEGAL,India,CRS008,Effective Communication,Leadership,False,2025-07-04,2025-08-09,Completed,100,86.0,4.6,8.1
+EMP030,Employee_738,Finance,UK,CRS014,Data Storytelling,Digital Learning,False,2025-09-28,,Not Started,0,,,0.0
+EMP021,Employee_739,Tax,UK,CRS012,Emotional Intelligence,Leadership,False,2025-02-09,2025-02-23,Completed,100,93.0,3.2,7.5
+EMP273,Employee_740,Legal,US,CRS007,Tableau for Analysts,Technical,False,2025-09-27,2025-11-09,Completed,100,75.0,4.1,9.5
+EMP286,Employee_741,Finance,Singapore,CRS012,Emotional Intelligence,Leadership,False,2025-02-24,2025-04-15,Completed,100,100.0,4.2,7.1
+EMP219,Employee_742,Tax,US,CRS015,Time Management,Leadership,False,2025-04-03,2025-05-09,Completed,100,85.0,4.0,6.9
+EMP274,Employee_743,Consulting,UK,CRS010,Code of Conduct,Compliance,True,2025-06-11,,In Progress,75,,,5.0
+EMP167,Employee_744,Audit,Singapore,CRS014,Data Storytelling,Digital Learning,False,2025-08-09,2025-10-01,Completed,100,80.0,4.2,6.1
+EMP110,Employee_745,Finance,Germany,CRS007,Tableau for Analysts,Technical,False,2025-05-11,2025-06-04,Completed,100,88.0,3.9,4.6
+EMP018,Employee_746,Finance,India,CRS005,Advanced Excel,Technical,False,2025-09-23,,Not Started,0,,,0.0
+EMP070,Employee_747,Audit,India,CRS015,Time Management,Leadership,False,2025-06-03,2025-06-18,Completed,100,73.0,4.7,1.2
+EMP142,Employee_748,Finance,Australia,CRS015,Time Management,Leadership,False,2025-10-12,2025-11-18,Completed,100,96.0,3.3,1.3
+EMP183,Employee_749,Legal,UK,CRS003,Leadership 101,Leadership,False,2025-07-07,,Overdue,50,,,0.5
+EMP132,Employee_750,Audit,India,CRS013,Digital Learning Design,Digital Learning,False,2025-10-20,2025-11-15,Completed,100,96.0,6.5,7.6
+EMP167,Employee_751,Consulting,US,CRS013,Digital Learning Design,Digital Learning,False,2025-09-07,2025-10-30,Completed,100,96.0,4.6,1.9
+EMP154,Employee_752,Advisory,Australia,CRS001,Data Privacy Fundamentals,Compliance,True,2025-07-15,,Overdue,0,,,1.6
+EMP172,Employee_753,Consulting,Singapore,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-03-03,2025-04-28,Completed,100,74.0,4.5,8.6
+EMP006,Employee_754,Advisory,Singapore,CRS011,SQL Fundamentals,Technical,False,2025-01-28,,Completed,100,93.0,3.1,5.9
+EMP077,Employee_755,Finance,Germany,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-04-24,2025-05-04,Completed,100,63.0,4.3,10.0
+EMP229,Employee_756,Finance,Australia,CRS013,Digital Learning Design,Digital Learning,False,2025-09-16,,In Progress,25,,,1.5
+EMP149,Employee_757,Consulting,US,CRS013,Digital Learning Design,Digital Learning,False,2025-03-09,2025-03-31,Completed,100,65.0,4.0,7.7
+EMP281,Employee_758,Audit,India,CRS007,Tableau for Analysts,Technical,False,2025-07-24,2025-08-26,Completed,100,87.0,4.5,2.2
+EMP070,Employee_759,Finance,US,CRS008,Effective Communication,Leadership,False,2025-09-07,,Not Started,0,,,0.0
+EMP203,Employee_760,Finance,US,CRS011,SQL Fundamentals,Technical,False,2025-10-15,,In Progress,75,,,5.0
+EMP269,Employee_761,Legal,India,CRS004,Cyber Security Awareness,Compliance,True,2025-05-17,2025-07-06,Completed,100,87.0,3.6,9.3
+EMP046,Employee_762,Advisory,Singapore,CRS002,Power BI Essentials,Technical,False,2025-08-05,2025-08-29,Completed,100,82.0,3.4,4.1
+EMP013,Employee_763,Audit,US,CRS013,Digital Learning Design,Digital Learning,False,2025-06-29,2025-08-08,Completed,100,88.0,4.2,5.0
+EMP120,Employee_764,Advisory,UK,CRS004,Cyber Security Awareness,Compliance,True,2025-03-21,,In Progress,75,,,4.3
+EMP058,Employee_765,Tax,US,CRS012,Emotional Intelligence,Leadership,False,2025-03-17,2025-05-12,Completed,100,78.0,3.0,7.2
+EMP057,Employee_766,Consulting,Singapore,CRS005,Advanced Excel,Technical,False,2025-01-12,2025-02-03,Completed,100,73.0,4.5,2.9
+EMP280,Employee_767,Audit,Australia,CRS009,AI & Ethics,Digital Learning,False,2025-09-05,,In Progress,75,,,3.8
+EMP073,Employee_768,Advisory,Germany,CRS012,Emotional Intelligence,Leadership,False,2025-01-10,,Not Started,0,,,0.0
+EMP193,Employee_769,Advisory,Australia,CRS010,Code of Conduct,Compliance,True,2025-01-23,2025-02-09,Completed,100,70.0,3.1,2.8
+EMP139,Employee_770,Consulting,Germany,CRS001,Data Privacy Fundamentals,Compliance,True,2025-01-05,,Not Started,0,,,0.0
+EMP035,Employee_771,Advisory,UK,CRS007,Tableau for Analysts,Technical,False,2025-07-04,2025-08-29,Completed,100,66.0,3.0,8.8
+EMP198,Employee_772,Consulting,Australia,CRS004,Cyber Security Awareness,Compliance,True,2025-02-20,,Not Started,0,,,0.0
+EMP162,Employee_773,Finance,Australia,CRS008,Effective Communication,Leadership,False,2025-02-15,2025-02-27,Completed,100,72.0,4.0,5.1
+EMP012,Employee_774,Legal,Australia,CRS001,Data Privacy Fundamentals,Compliance,True,2025-06-06,2025-06-28,Completed,100,91.0,3.8,2.4
+EMP178,Employee_775,Audit,UK,CRS011,SQL Fundamentals,Technical,False,2025-06-04,,In Progress,25,,,5.0
+EMP257,Employee_776,Tax,Germany,CRS005,Advanced Excel,Technical,False,2025-05-12,2025-07-08,Completed,100,84.0,4.8,8.3
+EMP016,Employee_777,Audit,US,CRS009,AI & Ethics,Digital Learning,False,2025-03-19,2025-04-10,Completed,100,85.0,4.3,1.8
+EMP196,Employee_778,Advisory,Australia,CRS009,AI & Ethics,Digital Learning,False,2025-04-27,,In Progress,50,,,1.6
+EMP079,Employee_779,Audit,Australia,CRS007,Tableau for Analysts,Technical,False,2025-06-18,,In Progress,50,,,2.9
+EMP106,Employee_780,Legal,Australia,CRS011,SQL Fundamentals,Technical,False,2025-10-05,2025-11-18,Completed,100,72.0,4.7,3.8
+EMP269,Employee_781,Legal,Singapore,CRS015,Time Management,Leadership,False,2025-03-16,,In Progress,75,,,4.7
+EMP081,Employee_782,Tax,Australia,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-09-30,2025-11-16,Completed,100,67.0,3.4,8.6
+EMP075,Employee_783,Tax,UK,CRS012,Emotional Intelligence,Leadership,False,2025-07-31,2025-08-27,Completed,100,79.0,3.9,9.4
+EMP141,Employee_784,Legal,India,CRS003,Leadership 101,Leadership,False,2025-03-09,2025-03-21,Completed,100,61.0,4.5,6.5
+EMP137,Employee_785,Finance,Australia,CRS010,Code of Conduct,Compliance,True,2025-04-29,2025-06-07,Completed,100,74.0,3.5,1.2
+EMP041,Employee_786,Consulting,US,CRS012,Emotional Intelligence,Leadership,False,2025-09-15,,Overdue,50,,,0.9
+EMP192,Employee_787,Consulting,Singapore,CRS003,Leadership 101,Leadership,False,2025-08-31,2025-09-09,Completed,100,70.0,3.4,1.3
+EMP008,Employee_788,Audit,Singapore,CRS015,Time Management,Leadership,False,2025-04-24,2025-06-11,Completed,100,72.0,4.5,1.6
+EMP225,Employee_789,Finance,Singapore,CRS014,Data Storytelling,Digital Learning,False,2025-06-16,2025-08-11,Completed,100,89.0,4.8,4.8
+EMP022,Employee_790,Advisory,Singapore,CRS010,Code of Conduct,Compliance,True,2025-06-10,,Overdue,25,,,1.2
+EMP293,Employee_791,Finance,Australia,CRS010,Code of Conduct,Compliance,True,2025-01-20,2025-02-23,Completed,100,66.0,3.9,8.4
+EMP022,Employee_792,Legal,Australia,CRS015,Time Management,Leadership,False,2025-10-03,2025-10-29,Completed,100,62.0,4.1,5.6
+EMP026,Employee_793,LEGAL,Singapore,CRS004,Cyber Security Awareness,Compliance,True,2025-07-23,2025-09-18,Completed,100,79.0,4.5,3.6
+EMP086,Employee_794,Audit,Australia,CRS007,Tableau for Analysts,Technical,False,2025-01-28,2025-03-14,Completed,100,93.0,4.8,5.2
+EMP232,Employee_795,Advisory,Australia,CRS002,Power BI Essentials,Technical,False,2025-02-27,2025-03-11,Completed,100,97.0,4.9,7.3
+EMP070,Employee_796,Consulting,UK,CRS007,Tableau for Analysts,Technical,False,2025-08-19,,Not Started,0,,,0.0
+EMP013,Employee_797,Consulting,Australia,CRS003,Leadership 101,Leadership,False,2025-04-14,,Overdue,25,,,0.2
+EMP166,Employee_798,Advisory,Germany,CRS012,Emotional Intelligence,Leadership,False,2025-03-25,2025-05-10,Completed,100,67.0,3.2,7.4
+EMP186,Employee_799,Finance,Germany,CRS002,Power BI Essentials,Technical,False,2025-07-16,,In Progress,75,,,4.1
+EMP262,Employee_800,Legal,Singapore,CRS010,Code of Conduct,Compliance,True,2025-10-09,,Overdue,25,,,0.1
+EMP088,Employee_801,Audit,Australia,CRS015,Time Management,Leadership,False,2025-03-18,,In Progress,25,,,4.4
+EMP092,Employee_802,Advisory,India,CRS013,Digital Learning Design,Digital Learning,False,2025-08-03,2025-08-23,Completed,100,79.0,4.5,9.6
+EMP148,Employee_803,Legal,India,CRS011,SQL Fundamentals,Technical,False,2025-03-09,2025-03-22,Completed,100,60.0,4.2,3.3
+EMP235,Employee_804,Consulting,Australia,CRS008,Effective Communication,Leadership,False,2025-01-03,2025-02-11,Completed,100,91.0,3.5,6.3
+EMP244,Employee_805,Consulting,Singapore,CRS008,Effective Communication,Leadership,False,2025-02-10,,Completed,100,98.0,3.0,8.9
+EMP143,Employee_806,Advisory,Australia,CRS010,Code of Conduct,Compliance,True,2025-04-17,,In Progress,25,,,1.3
+EMP029,Employee_807,Audit,India,CRS011,SQL Fundamentals,Technical,False,2025-03-16,,Overdue,0,,,1.3
+EMP153,Employee_808,Tax,India,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-02-25,,Overdue,25,,,2.0
+EMP083,Employee_809,Audit,Australia,CRS011,SQL Fundamentals,Technical,False,2025-10-21,2025-12-11,Completed,100,95.0,3.4,5.1
+EMP297,Employee_810,tax,India,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-06-03,2025-06-24,Completed,100,83.0,4.8,8.4
+EMP219,Employee_811,Finance,India,CRS014,Data Storytelling,Digital Learning,False,2025-05-30,,Overdue,25,,,0.3
+EMP141,Employee_812,Finance,Singapore,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-09-26,,Not Started,0,,,0.0
+EMP108,Employee_813,Legal,Australia,CRS012,Emotional Intelligence,Leadership,False,2025-01-30,2025-02-06,Completed,100,96.0,4.5,6.7
+EMP045,Employee_814,Advisory,Germany,CRS008,Effective Communication,Leadership,False,2025-05-28,,Overdue,25,,,1.2
+EMP163,Employee_815,Finance,Australia,CRS005,Advanced Excel,Technical,False,2025-07-01,,Not Started,0,,,0.0
+EMP067,Employee_816,tax,Singapore,CRS010,Code of Conduct,Compliance,True,2025-09-24,2025-11-10,Completed,100,100.0,4.0,8.3
+EMP120,Employee_817,Audit,US,CRS012,Emotional Intelligence,Leadership,False,2025-01-01,2025-01-09,Completed,100,61.0,3.9,8.2
+EMP107,Employee_818,Finance,Singapore,CRS013,Digital Learning Design,Digital Learning,False,2025-07-31,2025-08-03,Completed,100,81.0,3.7,8.3
+EMP109,Employee_819,Advisory,US,CRS001,Data Privacy Fundamentals,Compliance,True,2025-05-25,2025-06-11,Completed,100,64.0,3.6,5.6
+EMP166,Employee_820,Tax,India,CRS013,Digital Learning Design,Digital Learning,False,2025-06-20,2025-07-12,Completed,100,85.0,4.4,6.5
+EMP015,Employee_821,Legal,US,CRS014,Data Storytelling,Digital Learning,False,2025-06-19,,Not Started,0,,,0.0
+EMP174,Employee_822,Advisory,Singapore,CRS015,Time Management,Leadership,False,2025-08-31,,Completed,100,62.0,4.3,5.3
+EMP236,Employee_823,Finance,UK,CRS015,Time Management,Leadership,False,2025-08-25,2025-10-15,Completed,100,86.0,4.9,1.5
+EMP267,Employee_824,Finance,Germany,CRS005,Advanced Excel,Technical,False,2025-06-11,2025-07-17,Completed,100,94.0,3.0,6.2
+EMP170,Employee_825,Audit,India,CRS013,Digital Learning Design,Digital Learning,False,2025-03-18,2025-04-05,Completed,100,61.0,3.7,4.4
+EMP274,Employee_826,Legal,Australia,CRS014,Data Storytelling,Digital Learning,False,2025-07-19,,Overdue,0,,,1.2
+EMP158,Employee_827,Audit,Germany,CRS012,Emotional Intelligence,Leadership,False,2025-01-17,2025-02-04,Completed,100,86.0,3.2,8.9
+EMP191,Employee_828,Audit,US,CRS008,Effective Communication,Leadership,False,2025-09-26,2025-10-16,Completed,100,71.0,3.2,8.1
+EMP104,Employee_829,Tax,Singapore,CRS015,Time Management,Leadership,False,2025-09-17,,In Progress,25,,,4.1
+EMP257,Employee_830,Legal,UK,CRS003,Leadership 101,Leadership,False,2025-09-05,2025-10-22,Completed,100,93.0,3.6,3.9
+EMP051,Employee_831,Finance,Germany,CRS014,Data Storytelling,Digital Learning,False,2025-03-09,2025-03-23,Completed,100,62.0,3.9,7.4
+EMP268,Employee_832,Tax,UK,CRS002,Power BI Essentials,Technical,False,2025-01-23,2025-03-08,Completed,100,98.0,4.7,4.0
+EMP024,Employee_833,Finance,Germany,CRS002,Power BI Essentials,Technical,False,2025-06-09,2025-06-11,Completed,100,96.0,4.5,6.7
+EMP108,Employee_834,Legal,US,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-05-27,2025-06-14,Completed,100,94.0,3.6,5.0
+EMP061,Employee_835,Legal,US,CRS005,Advanced Excel,Technical,False,2025-05-21,2025-05-29,Completed,100,60.0,4.9,6.0
+EMP053,Employee_836,Finance,UK,CRS004,Cyber Security Awareness,Compliance,True,2025-10-09,2025-10-30,Completed,100,77.0,3.3,7.3
+EMP146,Employee_837,Legal,US,CRS010,Code of Conduct,Compliance,True,15/03/2025,,Overdue,25,,,1.2
+EMP174,Employee_838,Consulting,India,CRS009,AI & Ethics,Digital Learning,False,2025-03-08,2025-03-10,Completed,100,90.0,4.8,1.5
+EMP197,Employee_839,Tax,Singapore,CRS001,Data Privacy Fundamentals,Compliance,True,2025-07-20,2025-08-01,Completed,100,98.0,4.8,6.7
+EMP229,Employee_840,Audit,UK,CRS010,Code of Conduct,Compliance,True,2025-06-20,2025-08-12,Completed,100,72.0,4.4,7.0
+EMP274,Employee_841,Consulting,Australia,CRS002,Power BI Essentials,Technical,False,2025-03-09,2025-03-15,Completed,100,89.0,3.2,3.8
+EMP239,Employee_842,Legal,US,CRS008,Effective Communication,Leadership,False,2025-03-15,,In Progress,75,,,1.7
+EMP187,Employee_843,Legal,Germany,CRS007,Tableau for Analysts,Technical,False,2025-06-19,2025-08-09,Completed,100,80.0,3.9,1.3
+EMP244,Employee_844,Audit,Singapore,CRS002,Power BI Essentials,Technical,False,2025-08-25,,Overdue,0,,,0.6
+EMP179,Employee_845,Finance,US,CRS010,Code of Conduct,Compliance,True,2025-09-18,2025-09-25,Completed,100,85.0,4.6,8.2
+EMP167,Employee_846,Advisory,India,CRS009,AI & Ethics,Digital Learning,False,2025-06-04,2025-07-09,Completed,100,89.0,3.8,4.7
+EMP125,Employee_847,Legal,Singapore,CRS009,AI & Ethics,Digital Learning,False,2025-07-16,,Completed,100,81.0,3.4,7.2
+EMP221,Employee_848,Consulting,Australia,CRS013,Digital Learning Design,Digital Learning,False,2025-06-25,,Overdue,50,,,1.4
+EMP089,Employee_849,Advisory,India,CRS011,SQL Fundamentals,Technical,False,2025-10-21,2025-12-14,Completed,100,91.0,3.2,6.4
+EMP167,Employee_850,Tax,Singapore,CRS009,AI & Ethics,Digital Learning,False,2025-04-01,2025-04-21,Completed,100,85.0,3.1,2.0
+EMP195,Employee_851,Consulting,Germany,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-02-01,2025-02-07,Completed,100,73.0,4.6,9.0
+EMP001,Employee_852,Legal,Germany,CRS013,Digital Learning Design,Digital Learning,False,2025-03-18,,In Progress,50,,,2.9
+EMP200,Employee_853,Finance,Singapore,CRS010,Code of Conduct,Compliance,True,2025-04-11,2025-04-25,Completed,100,80.0,3.6,8.1
+EMP156,Employee_854,Consulting,Germany,CRS015,Time Management,Leadership,False,2025-06-26,,Not Started,0,,,0.0
+EMP046,Employee_855,Tax,Australia,CRS010,Code of Conduct,Compliance,True,2025-09-19,2025-10-15,Completed,100,68.0,4.7,-2.0
+EMP282,Employee_856,Tax,Germany,CRS001,Data Privacy Fundamentals,Compliance,True,2025-10-14,2025-12-06,Completed,100,82.0,3.2,3.5
+EMP016,Employee_857,Consulting,Germany,CRS004,Cyber Security Awareness,Compliance,True,2025-07-21,2025-08-31,Completed,100,80.0,4.4,4.7
+EMP223,Employee_858,Legal,Germany,CRS009,AI & Ethics,Digital Learning,False,2025-03-30,2025-04-30,Completed,100,68.0,3.4,4.5
+EMP185,Employee_859,Consulting,US,CRS014,Data Storytelling,Digital Learning,False,2025-05-28,2025-07-23,Completed,100,68.0,3.3,1.6
+EMP009,Employee_860,Advisory,Singapore,CRS003,Leadership 101,Leadership,False,2025-08-12,2025-08-21,Completed,100,65.0,3.3,8.3
+EMP234,Employee_861,Advisory,Australia,CRS015,Time Management,Leadership,False,2025-08-06,,In Progress,75,,,1.3
+EMP261,Employee_862,Finance,Singapore,CRS007,Tableau for Analysts,Technical,False,2025-07-16,2025-08-08,Completed,100,74.0,3.4,6.4
+EMP296,Employee_863,Advisory,US,CRS008,Effective Communication,Leadership,False,2025-09-14,2025-10-02,Completed,100,86.0,4.9,6.2
+EMP018,Employee_864,Finance,Singapore,CRS001,Data Privacy Fundamentals,Compliance,True,2025-07-08,2025-07-16,Completed,100,97.0,4.0,7.2
+EMP073,Employee_865,Advisory,Australia,CRS012,Emotional Intelligence,Leadership,False,2025-05-24,2025-06-23,Completed,100,93.0,3.2,9.0
+EMP046,Employee_866,Consulting,Germany,CRS004,Cyber Security Awareness,Compliance,True,2025-02-09,2025-03-25,Completed,100,100.0,4.1,6.2
+EMP028,Employee_867,Audit,Australia,CRS015,Time Management,Leadership,False,2025-01-06,2025-02-06,Completed,100,89.0,4.0,5.2
+EMP170,Employee_868,Audit,UK,CRS007,Tableau for Analysts,Technical,False,2025-05-29,2025-06-09,Completed,100,62.0,4.4,6.4
+EMP156,Employee_869,Finance,UK,CRS012,Emotional Intelligence,Leadership,False,2025-02-01,,Not Started,0,,,0.0
+EMP243,Employee_870,Legal,Australia,CRS010,Code of Conduct,Compliance,True,2025-01-27,,Overdue,50,,,2.0
+EMP014,Employee_871,Consulting,India,CRS005,Advanced Excel,Technical,False,2025-03-06,2025-04-08,Completed,100,64.0,4.7,3.5
+EMP068,Employee_872,Audit,UK,CRS010,Code of Conduct,Compliance,True,2025-05-12,2025-05-13,Completed,100,67.0,4.2,9.2
+EMP078,Employee_873,Consulting,UK,CRS011,SQL Fundamentals,Technical,False,2025-03-31,2025-04-17,Completed,100,75.0,4.0,8.2
+EMP017,Employee_874,Tax,US,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-03-20,2025-05-13,Completed,100,91.0,4.5,4.7
+EMP197,Employee_875,Advisory,Singapore,CRS004,Cyber Security Awareness,Compliance,True,2025-03-27,2025-04-10,Completed,100,96.0,4.5,4.1
+EMP136,Employee_876,Tax,India,CRS013,Digital Learning Design,Digital Learning,False,2025-03-27,2025-04-26,Completed,100,85.0,4.0,5.3
+EMP273,Employee_877,Consulting,Germany,CRS004,Cyber Security Awareness,Compliance,True,2025-07-19,,In Progress,50,,,1.7
+EMP272,Employee_878,Consulting,India,CRS014,Data Storytelling,Digital Learning,False,2025-05-28,,In Progress,50,,,2.2
+EMP162,Employee_879,Advisory,India,CRS009,AI & Ethics,Digital Learning,False,2025-02-19,2025-04-19,Completed,100,94.0,4.3,9.6
+EMP222,Employee_880,Advisory,UK,CRS010,Code of Conduct,Compliance,True,15/03/2025,2025-07-09,Completed,100,77.0,4.6,3.3
+EMP300,Employee_881,Consulting,Germany,CRS007,Tableau for Analysts,Technical,False,2025-05-04,2025-06-20,Completed,100,97.0,4.5,5.7
+EMP093,Employee_882,Finance,India,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-01-05,,In Progress,25,,,0.6
+EMP051,Employee_883,Tax,Germany,CRS009,AI & Ethics,Digital Learning,False,2025-08-17,2025-09-09,Completed,100,74.0,4.5,3.3
+EMP018,Employee_884,Finance,India,CRS001,Data Privacy Fundamentals,Compliance,True,2025-01-30,2025-03-10,Completed,100,73.0,4.9,6.7
+EMP062,Employee_885,Finance,US,CRS002,Power BI Essentials,Technical,False,2025-07-12,,In Progress,75,,,3.9
+EMP290,Employee_886,Legal,India,CRS013,Digital Learning Design,Digital Learning,False,2025-04-05,2025-04-22,Completed,100,78.0,3.9,9.4
+EMP233,Employee_887,Audit,Singapore,CRS015,Time Management,Leadership,False,2025-06-15,,In Progress,50,,,1.2
+EMP038,Employee_888,Tax,Singapore,CRS005,Advanced Excel,Technical,False,2025-07-18,2025-08-09,Completed,100,63.0,3.5,8.3
+EMP092,Employee_889,Tax,Singapore,CRS008,Effective Communication,Leadership,False,2025-04-13,2025-05-23,Completed,100,85.0,3.4,5.4
+EMP074,Employee_890,Consulting,US,CRS009,AI & Ethics,Digital Learning,False,2025-02-24,2025-04-24,Completed,100,88.0,4.4,1.9
+EMP038,Employee_891,Finance,Germany,CRS002,Power BI Essentials,Technical,False,2025-05-09,,In Progress,50,,,0.6
+EMP255,Employee_892,Advisory,Germany,CRS003,Leadership 101,Leadership,False,2025-01-01,,Not Started,0,,,0.0
+EMP020,Employee_893,Consulting,UK,CRS011,SQL Fundamentals,Technical,False,2025-03-19,,Not Started,0,,,0.0
+EMP169,Employee_894,Consulting,Australia,CRS015,Time Management,Leadership,False,2025-01-02,2025-02-04,Completed,100,91.0,4.0,4.6
+EMP036,Employee_895,Legal,India,CRS009,AI & Ethics,Digital Learning,False,2025-07-16,,In Progress,75,,,4.2
+EMP247,Employee_896,Finance,Australia,CRS002,Power BI Essentials,Technical,False,2025-07-03,2025-07-25,Completed,100,79.0,3.8,6.7
+EMP047,Employee_897,Finance,UK,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-02-11,2025-04-06,Completed,100,89.0,4.5,3.6
+EMP104,Employee_898,Finance,India,CRS003,Leadership 101,Leadership,False,2025-07-16,,Not Started,0,,,0.0
+EMP098,Employee_899,Advisory,Singapore,CRS005,Advanced Excel,Technical,False,2025-02-24,2025-04-06,Completed,100,82.0,4.0,9.0
+EMP225,Employee_900,Legal,US,CRS012,Emotional Intelligence,Leadership,False,2025-01-19,,Completed,100,61.0,4.4,6.3
+EMP251,Employee_901,Tax,Australia,CRS007,Tableau for Analysts,Technical,False,2025-06-07,2025-07-09,Completed,100,94.0,4.9,8.3
+EMP009,Employee_902,Audit,India,CRS001,Data Privacy Fundamentals,Compliance,True,2025-06-22,2025-08-12,Completed,100,62.0,3.8,2.9
+EMP268,Employee_903,Advisory,Australia,CRS008,Effective Communication,Leadership,False,2025-03-18,2025-05-05,Completed,100,97.0,3.5,1.6
+EMP073,Employee_904,Advisory,India,CRS008,Effective Communication,Leadership,False,2025-08-30,2025-10-28,Completed,100,99.0,3.1,7.3
+EMP067,Employee_905,Legal,Germany,CRS001,Data Privacy Fundamentals,Compliance,True,2025-01-26,2025-03-25,Completed,100,79.0,4.6,1.9
+EMP088,Employee_906,Finance,India,CRS014,Data Storytelling,Digital Learning,False,2025-02-24,,Not Started,0,,,0.0
+EMP059,Employee_907,Finance,india,CRS008,Effective Communication,Leadership,False,2025-04-23,,Not Started,0,,,0.0
+EMP033,Employee_908,Legal,Singapore,CRS013,Digital Learning Design,Digital Learning,False,2025-06-22,2025-08-13,Completed,100,85.0,3.6,9.8
+EMP295,Employee_909,Legal,UK,CRS009,AI & Ethics,Digital Learning,False,2025-04-20,2025-06-08,Completed,100,62.0,4.2,4.0
+EMP062,Employee_910,Legal,Singapore,CRS005,Advanced Excel,Technical,False,2025-03-28,2025-05-12,Completed,100,83.0,4.1,4.9
+EMP298,Employee_911,Legal,India,CRS001,Data Privacy Fundamentals,Compliance,True,2025-07-12,2025-08-31,Completed,100,70.0,3.0,5.4
+EMP004,Employee_912,Legal,India,CRS001,Data Privacy Fundamentals,Compliance,True,2025-05-26,2025-06-22,Completed,100,90.0,4.4,2.9
+EMP139,Employee_913,Consulting,Singapore,CRS009,AI & Ethics,Digital Learning,False,2025-05-03,2025-05-15,Completed,100,99.0,4.4,6.4
+EMP256,Employee_914,Tax,Germany,CRS010,Code of Conduct,Compliance,True,2025-06-04,2025-06-27,Completed,100,86.0,3.0,3.1
+EMP061,Employee_915,Tax,Australia,CRS009,AI & Ethics,Digital Learning,False,2025-07-05,2025-08-30,Completed,100,94.0,4.0,5.2
+EMP107,Employee_916,Tax,US,CRS005,Advanced Excel,Technical,False,2025-02-27,2025-04-19,Completed,100,69.0,4.4,9.7
+EMP243,Employee_917,Legal,US,CRS008,Effective Communication,Leadership,False,2025-01-23,2025-01-27,Completed,100,83.0,3.6,4.9
+EMP172,Employee_918,Consulting,India,CRS010,Code of Conduct,Compliance,True,2025-02-23,,Overdue,50,,,0.1
+EMP276,Employee_919,Legal,USA,CRS003,Leadership 101,Leadership,False,2025-09-06,,In Progress,75,,,1.0
+EMP121,Employee_920,Consulting,Australia,CRS012,Emotional Intelligence,Leadership,False,2025-10-24,2025-11-14,Completed,100,86.0,3.4,7.1
+EMP167,Employee_921,Tax,UK,CRS004,Cyber Security Awareness,Compliance,True,2025-04-27,,Not Started,0,,,0.0
+EMP051,Employee_922,Advisory,Singapore,CRS004,Cyber Security Awareness,Compliance,True,2025-04-13,2025-05-08,Completed,100,74.0,3.1,6.3
+EMP028,Employee_923,Consulting,US,CRS015,Time Management,Leadership,False,2025-04-21,,Not Started,0,,,0.0
+EMP233,Employee_924,Consulting,UK,CRS003,Leadership 101,Leadership,False,2025-03-11,,In Progress,50,,,3.7
+EMP184,Employee_925,Legal,UK,CRS005,Advanced Excel,Technical,False,2025-03-07,2025-03-10,Completed,100,96.0,3.1,2.2
+EMP239,Employee_926,Consulting,US,CRS008,Effective Communication,Leadership,False,2025-06-25,2025-07-10,Completed,100,78.0,4.2,8.1
+EMP088,Employee_927,Finance,US,CRS010,Code of Conduct,Compliance,True,2025-02-14,2025-03-13,Completed,100,93.0,4.0,10.0
+EMP243,Employee_928,Consulting,UK,CRS014,Data Storytelling,Digital Learning,False,2025-01-08,2025-02-24,Completed,100,87.0,4.5,3.2
+EMP168,Employee_929,Finance,US,CRS007,Tableau for Analysts,Technical,False,2025-03-18,,Completed,100,96.0,4.8,4.8
+EMP023,Employee_930,Consulting,Germany,CRS001,Data Privacy Fundamentals,Compliance,True,2025-09-16,2025-09-19,Completed,100,87.0,4.1,5.3
+EMP051,Employee_931,Consulting,US,CRS008,Effective Communication,Leadership,False,2025-02-12,2025-03-20,Completed,100,60.0,4.4,4.7
+EMP112,Employee_932,Audit,UK,CRS003,Leadership 101,Leadership,False,2025-05-03,,Not Started,0,,,0.0
+EMP047,Employee_933,Consulting,Germany,CRS001,Data Privacy Fundamentals,Compliance,True,2025-06-06,,Overdue,0,,,1.4
+EMP293,Employee_934,Finance,India,CRS012,Emotional Intelligence,Leadership,False,2025-08-21,2025-09-20,Completed,100,68.0,4.7,4.6
+EMP190,Employee_935,Consulting,Germany,CRS011,SQL Fundamentals,Technical,False,2025-01-01,2025-02-26,Completed,100,100.0,3.1,9.0
+EMP171,Employee_936,Tax,UK,CRS009,AI & Ethics,Digital Learning,False,2025-08-07,2025-09-25,Completed,100,77.0,4.4,6.5
+EMP295,Employee_937,Legal,Germany,CRS013,Digital Learning Design,Digital Learning,False,2025-02-11,2025-03-23,Completed,100,81.0,4.5,1.5
+EMP187,Employee_938,Tax,India,CRS015,Time Management,Leadership,False,2025-07-16,,Overdue,25,,,0.9
+EMP021,Employee_939,Audit,US,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-10-14,2025-11-29,Completed,100,64.0,4.1,8.0
+EMP071,Employee_940,Legal,Australia,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-02-28,2025-04-11,Completed,100,90.0,4.5,7.8
+EMP108,Employee_941,Advisory,US,CRS013,Digital Learning Design,Digital Learning,False,2025-06-14,2025-07-07,Completed,100,77.0,4.0,4.8
+EMP028,Employee_942,tax,UK,CRS002,Power BI Essentials,Technical,False,2025-08-20,2025-09-21,Completed,100,92.0,4.1,-2.0
+EMP273,Employee_943,Finance,UK,CRS011,SQL Fundamentals,Technical,False,2025-08-20,,In Progress,75,,,2.2
+EMP034,Employee_944,Consulting,India,CRS004,Cyber Security Awareness,Compliance,True,2025-02-11,,Not Started,0,,,0.0
+EMP201,Employee_945,Legal,UK,CRS015,Time Management,Leadership,False,2025-02-09,2025-02-16,Completed,100,70.0,3.6,7.3
+EMP255,Employee_946,Legal,Australia,CRS003,Leadership 101,Leadership,False,2025-01-12,2025-01-31,Completed,100,86.0,4.9,5.9
+EMP068,Employee_947,Audit,Singapore,CRS008,Effective Communication,Leadership,False,2025-08-16,2025-10-03,Completed,100,61.0,3.6,1.6
+EMP119,Employee_948,Finance,Germany,CRS014,Data Storytelling,Digital Learning,False,2025-06-21,,Overdue,25,,,1.2
+EMP168,Employee_949,Finance,Germany,CRS008,Effective Communication,Leadership,False,2025-09-29,,Not Started,0,,,0.0
+EMP281,Employee_950,LEGAL,UK,CRS008,Effective Communication,Leadership,False,2025-10-18,2025-10-27,Completed,100,79.0,3.3,3.3
+EMP248,Employee_951,Audit,India,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-03-17,2025-04-09,Completed,100,78.0,3.9,2.5
+EMP083,Employee_952,Finance,UK,CRS012,Emotional Intelligence,Leadership,False,2025-04-04,,In Progress,25,,,4.3
+EMP079,Employee_953,Legal,India,CRS003,Leadership 101,Leadership,False,2025-01-22,2025-02-12,Completed,100,96.0,3.3,3.3
+EMP095,Employee_954,Finance,Germany,CRS004,Cyber Security Awareness,Compliance,True,2025-01-18,,Overdue,50,,,0.6
+EMP177,Employee_955,Audit,Singapore,CRS003,Leadership 101,Leadership,False,2025-10-04,2025-10-15,Completed,100,94.0,3.6,9.3
+EMP208,Employee_956,Consulting,US,CRS015,Time Management,Leadership,False,2025-08-23,2025-10-22,Completed,100,80.0,3.3,9.7
+EMP280,Employee_957,Audit,Germany,CRS009,AI & Ethics,Digital Learning,False,2025-06-01,2025-07-02,Completed,100,78.0,4.9,7.8
+EMP294,Employee_958,Legal,Australia,CRS011,SQL Fundamentals,Technical,False,2025-08-15,2025-09-06,Completed,100,67.0,4.5,9.1
+EMP072,Employee_959,LEGAL,India,CRS011,SQL Fundamentals,Technical,False,2025-06-07,2025-06-09,Completed,100,85.0,4.2,3.0
+EMP183,Employee_960,Audit,India,CRS002,Power BI Essentials,Technical,False,2025-04-10,,In Progress,75,,,2.9
+EMP143,Employee_961,Tax,India,CRS004,Cyber Security Awareness,Compliance,True,2025-10-03,2025-11-27,Completed,100,88.0,4.4,9.6
+EMP263,Employee_962,Legal,Singapore,CRS007,Tableau for Analysts,Technical,False,2025-06-12,2025-07-21,Completed,100,98.0,4.0,1.5
+EMP185,Employee_963,Legal,Germany,CRS007,Tableau for Analysts,Technical,False,2025-08-07,2025-08-31,Completed,100,84.0,3.7,3.6
+EMP180,Employee_964,Consulting,Australia,CRS005,Advanced Excel,Technical,False,2025-02-14,2025-02-28,Completed,100,88.0,4.5,4.7
+EMP227,Employee_965,Legal,Germany,CRS005,Advanced Excel,Technical,False,2025-08-06,2025-09-22,Completed,100,86.0,3.3,6.3
+EMP045,Employee_966,Legal,UK,CRS003,Leadership 101,Leadership,False,2025-09-01,2025-10-27,Completed,100,93.0,5.0,1.6
+EMP193,Employee_967,Tax,Singapore,CRS002,Power BI Essentials,Technical,False,2025-05-20,,In Progress,50,,,1.3
+EMP237,Employee_968,Finance,US,CRS012,Emotional Intelligence,Leadership,False,2025-04-13,2025-04-25,Completed,100,84.0,3.6,5.4
+EMP155,Employee_969,Finance,UK,CRS014,Data Storytelling,Digital Learning,False,2025-09-10,2025-10-16,Completed,100,89.0,3.4,8.1
+EMP079,Employee_970,Audit,Germany,CRS005,Advanced Excel,Technical,False,2025-08-30,2025-09-07,Completed,100,78.0,3.8,5.4
+EMP126,Employee_971,Tax,UK,CRS001,Data Privacy Fundamentals,Compliance,True,2025-09-10,,In Progress,25,,,3.2
+EMP186,Employee_972,Consulting,Australia,CRS010,Code of Conduct,Compliance,True,2025-08-12,,Overdue,25,,,1.3
+EMP244,Employee_973,Tax,UK,CRS012,Emotional Intelligence,Leadership,False,2025-09-20,,In Progress,75,,,3.1
+EMP133,Employee_974,Finance,India,CRS003,Leadership 101,Leadership,False,2025-03-16,2025-04-06,Completed,100,89.0,4.8,2.2
+EMP084,Employee_975,Audit,UK,CRS001,Data Privacy Fundamentals,Compliance,True,2025-08-03,2025-09-13,Completed,100,82.0,3.1,3.6
+EMP040,Employee_976,Legal,Germany,CRS009,AI & Ethics,Digital Learning,False,2025-04-04,2025-05-23,Completed,100,66.0,4.2,2.5
+EMP166,Employee_977,Audit,Germany,CRS014,Data Storytelling,Digital Learning,False,2025-06-04,2025-06-22,Completed,100,83.0,3.2,6.2
+EMP074,Employee_978,Legal,Australia,CRS001,Data Privacy Fundamentals,Compliance,True,2025-05-25,2025-06-18,Completed,100,91.0,3.8,9.3
+EMP084,Employee_979,Legal,US,CRS002,Power BI Essentials,Technical,False,2025-09-15,2025-09-30,Completed,100,72.0,4.6,6.0
+EMP270,Employee_980,Finance,Germany,CRS014,Data Storytelling,Digital Learning,False,2025-10-10,2025-11-24,Completed,100,67.0,3.8,9.2
+EMP060,Employee_981,Legal,India,CRS014,Data Storytelling,Digital Learning,False,2025-09-03,2025-09-26,Completed,100,79.0,4.4,2.3
+EMP227,Employee_982,Finance,Australia,CRS015,Time Management,Leadership,False,2025-06-25,,In Progress,25,,,3.7
+EMP015,Employee_983,Tax,US,CRS012,Emotional Intelligence,Leadership,False,2025-03-07,2025-05-01,Completed,100,69.0,4.4,3.8
+EMP108,Employee_984,Tax,Singapore,CRS003,Leadership 101,Leadership,False,2025-02-27,2025-03-04,Completed,100,61.0,4.5,7.8
+EMP022,Employee_985,Tax,India,CRS004,Cyber Security Awareness,Compliance,True,2025-09-20,,In Progress,75,,,0.8
+EMP061,Employee_986,Audit,India,CRS015,Time Management,Leadership,False,2025-02-03,2025-02-23,Completed,100,60.0,4.5,8.0
+EMP106,Employee_987,Legal,US,CRS010,Code of Conduct,Compliance,True,2025-06-29,,In Progress,25,,,0.9
+EMP143,Employee_988,Audit,UK,CRS010,Code of Conduct,Compliance,True,2025-03-24,2025-05-18,Completed,100,92.0,4.6,6.5
+EMP259,Employee_989,tax,India,CRS010,Code of Conduct,Compliance,True,2025-10-24,2025-12-12,Completed,100,60.0,4.1,7.4
+EMP145,Employee_990,Finance,india,CRS003,Leadership 101,Leadership,False,2025-02-20,,Not Started,0,,,0.0
+EMP110,Employee_991,Finance,Germany,CRS015,Time Management,Leadership,False,2025-09-01,,In Progress,50,,,3.6
+EMP095,Employee_992,Advisory,India,CRS008,Effective Communication,Leadership,False,2025-04-03,,In Progress,50,,,4.9
+EMP218,Employee_993,Finance,US,CRS004,Cyber Security Awareness,Compliance,True,2025-07-28,2025-08-05,Completed,100,80.0,3.2,2.0
+EMP070,Employee_994,Audit,Germany,CRS008,Effective Communication,Leadership,False,2025-05-28,2025-07-03,Completed,100,62.0,3.2,5.4
+EMP198,Employee_995,Consulting,Australia,CRS005,Advanced Excel,Technical,False,2025-06-09,2025-07-23,Completed,100,88.0,3.5,4.7
+EMP220,Employee_996,Tax,Singapore,CRS004,Cyber Security Awareness,Compliance,True,2025-07-08,2025-07-20,Completed,100,60.0,5.0,5.4
+EMP054,Employee_997,Consulting,Australia,CRS007,Tableau for Analysts,Technical,False,2025-02-13,,Overdue,0,,,0.3
+EMP206,Employee_998,Finance,India,CRS012,Emotional Intelligence,Leadership,False,2025-03-28,2025-04-02,Completed,100,83.0,5.0,4.0
+EMP207,Employee_999,Legal,Singapore,CRS002,Power BI Essentials,Technical,False,2025-09-13,,Overdue,25,,,1.5
+EMP298,Employee_1000,Audit,Germany,CRS010,Code of Conduct,Compliance,True,2025-07-24,2025-08-16,Completed,100,90.0,4.3,9.6
+EMP136,Employee_508,Advisory,Singapore,CRS007,Tableau for Analysts,Technical,False,2025-10-20,,Not Started,0,,,0.0
+EMP109,Employee_819,Advisory,US,CRS001,Data Privacy Fundamentals,Compliance,True,2025-05-25,2025-06-11,Completed,100,64.0,3.6,5.6
+EMP202,Employee_453,Advisory,UK,CRS012,Emotional Intelligence,Leadership,False,2025-06-12,2025-07-11,Completed,100,77.0,3.5,9.5
+EMP252,Employee_369,Legal,UK,CRS010,Code of Conduct,Compliance,True,2025-07-12,2025-07-30,Completed,100,85.0,3.7,9.4
+EMP219,Employee_243,Advisory,Singapore,CRS003,Leadership 101,Leadership,False,2025-06-29,,Overdue,25,,,0.1
+EMP023,Employee_930,Consulting,Germany,CRS001,Data Privacy Fundamentals,Compliance,True,2025-09-16,2025-09-19,Completed,100,87.0,4.1,5.3
+EMP015,Employee_263,Tax,Germany,CRS002,Power BI Essentials,Technical,False,2025-10-23,2025-11-09,Completed,100,73.0,4.5,4.7
+EMP219,Employee_811,Finance,India,CRS014,Data Storytelling,Digital Learning,False,2025-05-30,,Overdue,25,,,0.3
+EMP277,Employee_319,Advisory,UK,CRS003,Leadership 101,Leadership,False,2025-03-02,2025-03-14,Completed,100,94.0,3.8,2.1
+EMP077,Employee_50,Tax,UK,CRS009,AI & Ethics,Digital Learning,False,2025-10-26,2025-12-01,Completed,100,69.0,3.9,1.4
+EMP210,Employee_447,Legal,Australia,CRS001,Data Privacy Fundamentals,Compliance,True,2025-06-27,,Overdue,50,,,1.7
+EMP151,Employee_143,Audit,Singapore,CRS006,Anti-Bribery & Corruption,Compliance,True,2025-03-16,2025-04-01,Completed,100,93.0,3.8,7.1
+EMP155,Employee_969,Finance,UK,CRS014,Data Storytelling,Digital Learning,False,2025-09-10,2025-10-16,Completed,100,89.0,3.4,8.1
+EMP055,Employee_346,Tax,Australia,CRS015,Time Management,Leadership,False,2025-03-18,2025-04-03,Completed,100,72.0,4.2,3.3
+EMP186,Employee_972,Consulting,Australia,CRS010,Code of Conduct,Compliance,True,2025-08-12,,Overdue,25,,,1.3
+EMP171,Employee_134,Finance,Singapore,CRS009,AI & Ethics,Digital Learning,False,2025-08-22,2025-10-21,Completed,100,80.0,4.7,9.8
+EMP274,Employee_105,LEGAL,India,CRS003,Leadership 101,Leadership,False,2025-01-28,,Overdue,50,,,0.6
+EMP194,Employee_7,Finance,UK,CRS002,Power BI Essentials,Technical,False,2025-07-05,2025-08-11,Completed,100,72.0,4.4,1.4
+EMP110,Employee_601,Audit,UK,CRS011,SQL Fundamentals,Technical,False,2025-07-04,2025-07-23,Completed,100,73.0,4.9,6.6
+EMP116,Employee_497,Audit,Australia,CRS014,Data Storytelling,Digital Learning,False,2025-02-01,2025-02-11,Completed,100,66.0,3.2,4.1
+EMP156,Employee_703,LEGAL,Australia,CRS001,Data Privacy Fundamentals,Compliance,True,2025-03-11,2025-04-03,Completed,100,78.0,3.9,1.1
+EMP289,Employee_473,Consulting,Australia,CRS004,Cyber Security Awareness,Compliance,True,2025-06-08,2025-06-20,Completed,100,91.0,3.1,1.5
+EMP252,Employee_599,Finance,Australia,CRS013,Digital Learning Design,Digital Learning,False,2025-07-03,2025-07-08,Completed,100,80.0,4.1,9.6
+EMP076,Employee_503,Finance,UK,CRS014,Data Storytelling,Digital Learning,False,2025-06-13,2025-08-11,Completed,100,64.0,3.2,6.0
+EMP233,Employee_434,Finance,India,CRS010,Code of Conduct,Compliance,True,2025-06-08,2025-07-21,Completed,100,71.0,3.2,7.4
+EMP118,Employee_120,Finance,Australia,CRS011,SQL Fundamentals,Technical,False,15/03/2025,2025-03-01,Completed,100,77.0,4.2,7.9
+EMP061,Employee_109,Consulting,Australia,CRS009,AI & Ethics,Digital Learning,False,2025-04-26,2025-06-15,Completed,100,93.0,3.8,9.2
+EMP273,Employee_648,Tax,India,CRS009,AI & Ethics,Digital Learning,False,2025-09-04,,In Progress,75,,,1.1
+EMP147,Employee_590,Audit,US,CRS011,SQL Fundamentals,Technical,False,2025-02-01,2025-03-18,Completed,100,78.0,3.4,5.9
+EMP182,Employee_375,Advisory,Australia,CRS003,Leadership 101,Leadership,False,2025-01-23,2025-03-01,Completed,100,85.0,4.9,4.0
